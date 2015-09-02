@@ -13,7 +13,7 @@ In this unit we write the function ``makeDesignMatrix()`` that will help us do l
 
 Look at ``help makeDesignMatrix`` to get some ideas on how to plot. With some additional adjusting you can end up with something like this:
 
-(https://github.com/schluppeck/c84nim/blob/master/imaging-02/designMatrix.png)
+![Image of Design matrix](https://github.com/schluppeck/c84nim/blob/master/imaging-02/designMatrix.png)
 
 ## Notes
 
