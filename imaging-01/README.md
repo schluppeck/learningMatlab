@@ -4,7 +4,7 @@ In this unit we complete a simple interactive viewer program for displaying 3d (
 
 ## Specification for image viewer
 
-The user starts the program from the Matlab command line (e.g. ``sliceview()`` ), which then automatically loads in an image from a file in the current folder. By default, the program then opens a figure window, selects a 2d slice half-way through the 3d image in a particular orientation and displays it as a grayscale image (with a color scheme that stays fixed) and a colorbar to show how image intensities map to colors.
+The user starts the program from the Matlab command line by typing ``sliceview()``, which then automatically loads in an image from a file in the current folder. By default, the program then opens a figure window, selects a 2d slice half-way through the 3d image in a particular orientation and displays it as a grayscale image (with a color scheme/range that stays fixed) and a colorbar to show how image intensities map to colors.
 
 - When users press the up-arrow key, the image viewer skips to the next slice. Down-arrow for the previous slice. There is a white text label in the top left corner of the image that displays the current slice number
 
@@ -31,7 +31,7 @@ The image to be displayed in stored in a MAT file called ``anatomy.mat`` in the 
 - one called ``array``, a 3d-array containing the image volume;
 - another variable called ``hdr``, a ``struct`` with many fields, containing information about the stored image, including the filename of the original image, image dimensions, voxel sizes, etc.
 
-[Picture of image viewer](https://github.com/schluppeck/c84nim/blob/master/imaging-01/figure_sliceview.png)
+![Picture of image viewer](https://github.com/schluppeck/c84nim/blob/master/imaging-01/figure_sliceview.png)
 
 ##Helpful commands / concepts
 

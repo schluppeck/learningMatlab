@@ -37,18 +37,20 @@ During this session you should begin to develop an overall framework for the exp
 
 - By the next session you should have:
 
-a. the wrapper function (``oriDiscrim()``) that calls the functions that achieve your sub-tasks in your list in the correct order.
+a. the wrapper function ``oriDiscrim()`` that calls the functions that achieve your sub-tasks in your list in the correct order.
 
-b. you should also have written a function(s) to get the required information from both the experimenter (``getExperimentParams)``) and the subject (``getSubjectInfo()``) as outlined in points 3, 4, and 5 in the specification.
+b. you should also have written a function(s) to get the required information from both the experimenter ``getExperimentParams()`` and the subject ``getSubjectInfo()`` as outlined in points 3, 4, and 5 in the specification.
 
 c. "dummy" functions for all other tasks. Basically, functions that you can call (without getting an error) but that don't achieve very much yet. To state your intent, you can maybe add some placeholder code that will just let you know that the function will ultimately do, e.g.::
 
   ``disp('This function will display an oriented stimulus when it is grown-up...')``
 
 
-##Some useful commands:
+##Some useful commands
 
-``matlab
+Use the matlab help and documentation system to find out about the following
+
+```matlab
 doc function
 struct
 input
