@@ -48,7 +48,7 @@ c. "dummy" functions for all other tasks. Basically, functions that you can call
 
 ##Some useful commands:
 
-``matlab
+```matlab
 doc function
 struct
 input

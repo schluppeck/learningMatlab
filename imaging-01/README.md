@@ -70,4 +70,4 @@ What are the things to worry about / check to make sure this function is robust 
 ## Notes
 
 - check the ``interact.m`` program to see how we can attach interactivity to the matlab figure window
-- ``sliceview.m`` is the nearly complete program... all it's missing is the functionality of ``returnSlice()`` - you can either provide this as a separate file (the way you are probably used to) or inside the ``sliceview.m`` file itself.
+- ``sliceview.m`` is the nearly complete program... all it's missing is the functionality of ``returnSlice()`` - you can either provide this as a separate file (the way you are probably used to) or inside the ``sliceview.m`` file itself.     
