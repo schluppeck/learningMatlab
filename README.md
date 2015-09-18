@@ -12,24 +12,24 @@ Feel free to use the code. I accept donations in the form of freshly roasted cof
 
 The structure of the course was designed by us (Dan Shub, now at Walter Read, www.wrnmmc.capmed.mil; and Denis Schluppeck) to have 3 chunks.
 
-1. an introduction to the basic ideas (variables, functions, control flow) - running over **the first 2 weeks**
-2. a hands-on group project, designing and programming up a simple, but working, behavioural experiment, **4 weeks**
-3. a second project, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), **4 weeks**
+1. an introduction to the basic ideas (variables, functions, control flow) - running over **the first 2 weeks**. Check out the material in the **aToZ-intro** folder and the associated [readme file here.](aToZ-intro/README.md)
+2. a hands-on group project, designing and programming up a simple, but working, behavioural experiment, **4 weeks**. A brief overview of this part of the course is in the [readme file here.](behaviour-01/README.md)
+3. a second project, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), **4 weeks**. Details on the imaging-related unitsis outlined in [here.](imaging-01/README.md)
 
 ## Possible timetable
 
 | Week  | Unit  | Topic        |
 | ----- | ------------- | ----|  
-| 1     | Intro |  What is Matlab, the environment, variables, indexing, ...  |
-| 2     | Intro |  Logical variables, indexing, looping, branching, functions, ... |
-| 3     | Behaviour | Overview: building a simple psychophysical experiment; info from experimenter & subject  |
-| 4     | Behaviour | Making a stimulus and putting it up on the screen  |
-| 5     | Behaviour | Getting responses from the subject & fine-tuning   |
-| 6     | Behaviour | Analyzing the behavioural data, fitting and plotting  |
-| 7     | imaging | Building / fixing up a simple image viewer |
-| 8     | Imaging | A function that constructs a simple design matrix  |
-| 9     | Imaging | Hands-on linear regression (using a sample timecourse)  |
-| 10     | Imaging | Doing stats   |
+| 1     | [aToZ-intro](aToZ-intro/README.md) |  What is Matlab, the environment, variables, indexing, ...  |
+| 2     | [aToZ-intro](aToZ-intro/README.md)  |  Logical variables, indexing, looping, branching, functions, ... |
+| 3     |  [behaviour-01](behaviour-01/README.md) | Overview: building a simple psychophysical experiment; info from experimenter & subject  |
+| 4     | [behaviour-02](behaviour-02/README.md) | Making a stimulus and putting it up on the screen  |
+| 5     | [behaviour-03](behaviour-03/README.md) | Getting responses from the subject & fine-tuning   |
+| 6     | [behaviour-04](behaviour-04/README.md) | Analyzing the behavioural data, fitting and plotting  |
+| 7     | [imaging-01](imaging-01/README.md)  | Building / fixing up a simple image viewer |
+| 8     | [imaging-02](imaging-02/README.md)  | A function that constructs a simple design matrix  |
+| 9     | [imaging-03](imaging-03/README.md)  | Hands-on linear regression (using a sample timecourse)  |
+| 10     | [imaging-04](imaging-04/README.md)  | Doing regression *stats*, displaying, ... Close  |
 
 
 ## Notes
