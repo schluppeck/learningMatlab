@@ -7,8 +7,8 @@
 The following are really the most basic "exercises" to get everyone started on doing simple maths on the command line. Nothing particularly exciting here, apart from the last couple of exercises that are a bit more maths-y (but not particularly Matlab-heavy).
 
 1.	3/2
-2.	value of pi  (what do you think this could be called in Matlab?)
-3.	two times pi
+2.	value of π (what do you think this could be called in Matlab?)
+3.	two times π
 4.	2 to the power of 8
 5.	4 to the power of 3
 6.	64 to the power of one third

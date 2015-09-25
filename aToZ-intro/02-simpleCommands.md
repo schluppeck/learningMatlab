@@ -98,3 +98,7 @@ reshape(f,[2 40])
 repmat([1 2 3], 1, 5)
 repmat([1 2 3], 5, 1)
 ```
+
+##  Next
+
+[More simple commands](03-moreSimpleCommands.md) and some practice making vectors and matrices that contain specific things.
