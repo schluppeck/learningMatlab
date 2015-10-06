@@ -27,3 +27,7 @@ And look at the following exercises briefly to make some vectors / list of numbe
 7.	Add the number 15 to the vector ``b``
 8.  Create ``c=2:2:12`` and try to add the wrongly shaped ``[1 2]``  to ``c``. Note down the error message!
 9.  Try joining the vectors ``a`` and ``b``. Now the vectors ``b`` and ``c``. Should this work?
+
+##  Next
+
+[Simple commands](02-simpleCommands.md) for getting the mean, std, etc.

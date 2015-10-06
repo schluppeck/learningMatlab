@@ -31,15 +31,19 @@ Design and write code for a simple *orientation discrimination* experiment.
 
 During this session you should begin to develop an overall framework for the experimental code. In your groups, discuss the overall structure of the problem. At this point it's more important to make an overall plan of how you are going to tackle the problem, rather than obsessing over details of how you can achieve each sub-goal and implement them in Matlab.
 
-- **How can you break the big problem down into several smaller ones?** - to guide you in this, you should create a list of what functions need to be written that includes documentation about what processing the function does along with the input and output arguments. Use paper & pen, the whiteboard & marker pens to make some diagrams on how you imagine the overall structure of your program
+1. Form groups (4-5 people in each)
 
-- One useful strategy is to think about each problem as a box that can be solved by a little black box (ultimately a *function*). What information would that little box need to have to achieve its goal and would it produce some additional information? And what does it produce / return? Does it have a side-effect?
+2. **How can you break the big problem down into several smaller ones?** - to guide you in this, you should create a list of what functions need to be written that includes documentation about what processing the function does along with the input and output arguments. Use paper & pen, the whiteboard & marker pens to make some diagrams on how you imagine the overall structure of your program
 
-- By the next session you should have:
+3. One useful strategy is to think about each problem as a box that can be solved by a little black box (ultimately a *function*). What information would that little box need to have to achieve its goal and would it produce some additional information? And what does it produce / return? Does it have a side-effect?
 
-a. the wrapper function ``oriDiscrim()`` that calls the functions that achieve your sub-tasks in your list in the correct order.
+4. It's helpful to make a diagram / flow chart. Check out http://draw.io for constructing a simple diagrams and saving them out to a PDF file or similar.
 
-b. you should also have written a function(s) to get the required information from both the experimenter ``getExperimentParams()`` and the subject ``getSubjectInfo()`` as outlined in points 3, 4, and 5 in the specification.
+5. By the next session you should be able to present your progress at the front of class for ~5min. You should have:
+
+a. thought about the wrapper function ``oriDiscrim()`` that calls the functions that achieve your sub-tasks in your list in the correct order. Refer to the diagram / flowchart you have created (PDF file).
+
+b. you should also have written a function(s) to get the required information from both the experimenter ``getExperimentParams()`` and the subject ``getSubjectInfo()`` as outlined in points 3, 4, and 5 in the specification. We'll show your code snippets and get you to talk through it...
 
 c. "dummy" functions for all other tasks. Basically, functions that you can call (without getting an error) but that don't achieve very much yet. To state your intent, you can maybe add some placeholder code that will just let you know that the function will ultimately do, e.g.::
 

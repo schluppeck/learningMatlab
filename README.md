@@ -31,6 +31,27 @@ The structure of the course was designed by us (Dan Shub, now at Walter Read, ww
 | 9     | [imaging-03](imaging-03)  | Hands-on linear regression (using a sample timecourse)  |
 | 10     | [imaging-04](imaging-04)  | Doing regression *stats*, displaying, ... Close  |
 
+## How to get these materials
+
+Assuming you are on a Mac: open up a ``Terminal`` (double-click /Applications/Utilities/Terminal). Then do the following:
+
+```shell
+# if you don't already have one: create a ``matlab`` directory in your home space (``~``), then change directory to it:
+cd ~
+mkdir matlab
+cd matlab  
+# get MGL
+git clone https://github.com/justingardner/mgl.git
+# get these tutorials
+git clone https://github.com/schluppeck/c84nim.git
+```
+
+You'll need to add both these subfolders to your path; then you should be good to go:
+
+```matlab
+addpath(genpath('~/matlab/'))
+```
+
 
 ## Notes
 
