@@ -14,7 +14,7 @@ The following are really the most basic "exercises" to get everyone started on d
 6.	64 to the power of one third
 7.	**(bonus)** the square root of 81 (not using the ``sqrt()`` function?!)
 8.	**(bonus)** √-1 (not using the ``sqrt()`` function?!)
-9.	**(bonus)** :math:`i^1,i^2,i^3,i^4`, where :math:`i=√-1`
+9.	**(bonus)** i^1,i^2,i^3,i^4, where i=√-1
 
 And look at the following exercises briefly to make some vectors / list of numbers.
 
