@@ -52,6 +52,9 @@ You'll need to add both these subfolders to your path; then you should be good t
 addpath(genpath('~/matlab/'))
 ```
 
+## Grabbing updates
+
+To make sure you have any updates to this material, open a Termina, change directory to the ``c84nim`` folder and issue ``git pull`` . This will sync you the material on github.
 
 ## Notes
 

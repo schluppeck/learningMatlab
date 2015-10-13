@@ -35,3 +35,8 @@ ceil(s)	 % to the nearest integer up
 6. Now repeat the previous exercise but re-write the code such that the size of ``idx`` can be controlled by a variable ``n``. Are there any things to watch out for here?
 
 7. Find a way to make a matrix ``X`` that has 50 rows and 3 columns. Column 1 should contain 1..50. Column 2 should contain 1^2..50^2 and Column 3, √1..√50.
+
+
+##  Next
+
+[Scripts and functions](04-scriptsAndFunctions.md) - why they are useful, how they work.
