@@ -17,3 +17,6 @@ To make sure you are ready for the mini-projects (1) on building a simple *behav
 1. [Doing basic maths on the command prompt](01-firstSteps.md)
 2. [Simple commands](02-simpleCommands.md) for getting the mean, std, etc.
 3. [More simple commands](03-moreSimpleCommands.md) and some practice making vectors and matrices that contain specific things.
+4. [Scripts and functions](04-scriptsAndFunctions.md) - why they are useful, how they work.
+5. [Plotting data](05-plottingData.md) - making simple plots.
+6. [Loops, if/else, controlling flow](06-loopsAndControls.md) - making simple plots.  
