@@ -88,3 +88,41 @@ else
   disp(['there were ' num2str(nSubjects) ' subjects' ])
 end
 ```
+
+
+## for loops
+
+Together with branching (``if/else``), using ``for`` loops probably forms one of the most useful aspects of programming in Matlab (and other languages). For many tasks that you want to complete, being able to repeat the same action many times with a compact set of commands makes it a very powerful tool. Just imagine a situation where  something has to be done 1000 times either by a set of key strokes and maybe copying and pasting, say in Excel, or by issuing a command like ``runMyScript`` at the Matlab prompt... :
+
+```matlab
+% the syntax is quite simple:
+for loopIteration = 1:10
+  % on each interation, the variable
+  % loopIteration takes on the next value on list
+  disp('The current loop count is:')
+  loopIteration
+end
+```
+
+The key to making this work is to define clearly (but flexibly) what needs to be done over and over again. You may have to work out what it is that changes on each iteration and what needs to be repeated.
+
+One common use for loops is to load in a whole bunch of data files from psychophysics or imaging experiments and then to group data together that way. See the Appendix_ for an exercise on exactly that.
+
+Also keep in mind:
+
+- allocate space for variables you need to fill **before** loop
+- don't "grow" arrays (it's memory & time costly)
+- try to define the limits of your loop with variables:
+
+```matlab
+  for iCounter = 1:10 % AVOID
+      ... % and so on
+    end
+
+    nIterations = 10; % BETTER
+    for iIteration = 1:nIterations
+      ... % and so on
+    end
+```
+
+The version using ``nIterations = 10`` is much better, because it allows you to make other bits of your code depend on that number too (but stored in a variable). So if you change your mind later and want to iterate over 100 values instead, you can simply change things in one place.
