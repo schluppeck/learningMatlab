@@ -50,7 +50,7 @@ c. "dummy" functions for all other tasks. Basically, functions that you can call
   ``disp('This function will display an oriented stimulus when it is grown-up...')``
 
 
-##Some useful commands
+## Some useful commands
 
 Use the matlab help and documentation system to find out about the following
 
@@ -62,5 +62,5 @@ inputdlg
 questdlg
 str2double
 strcmp
-disp, sprtinf, fprintf
+disp, sprintf, fprintf
 ```
