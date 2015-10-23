@@ -46,7 +46,6 @@ function screenNumber = initializeScreen(screenNumber)
 ...
 end
 ```
-
 3. ... and a function the closes the screen (to be used at the end of the experiment). Optionally, it can display a "thank you message" before it closes the screen:
 ```matlab
 function closeScreen()
