@@ -44,7 +44,8 @@ To see a worked solution of those two functions, you can look at the m-files in 
 function screenNumber = initializeScreen(screenNumber)
 % initialize the screen for MGL
 ...
-end```
+end
+```
 
 3. ... and a function the closes the screen (to be used at the end of the experiment). Optionally, it can display a "thank you message" before it closes the screen:
 ```matlab
@@ -52,4 +53,16 @@ function closeScreen()
 % closeScreen - close the MGL screen and say bye!
 ...
 end
+```
+
+## Helpful commands
+
+Try looking up help for the following things
+
+```matlab
+help mglOpen
+mglTestDots(0)
+edit mglTestDots % look at the code
+
+
 ```
