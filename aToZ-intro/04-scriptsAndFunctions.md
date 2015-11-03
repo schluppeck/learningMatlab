@@ -34,7 +34,7 @@ Scripts are really the first step in making things you have to do over and over 
 Let's next consider **functions**. Functions are similar to scripts in some ways, but ultimately much more powerful. Like scripts, they can be used to execute a sequence of steps, but for functions we also define a set of inputs and outputs. In this way, functions isolate the data they work on: you pass data inside a function through its **input arguments** (zero to many) and it returns the result of its operation in its **output arguments**. So a useful analogy for a function is a little black box that has some number of inputs that works on them and returns some number of outputs. Once you have defined the function you can reuse it easily and as often as you want.
 
 
-*Scripts* don't isolate their funtionality in this way, but make use of the variables in the main workspace (the general memory available from the command line). This makes scripts much harder to reuse.
+*Scripts* don't isolate their functionality in this way, but make use of the variables in the main workspace (the general memory available from the command line). This makes scripts much harder to reuse.
 
 - create a new **m-file** (e.g. File -> New -> Function)
 - define interface: what are the **inputs** and **outputs**:
