@@ -62,6 +62,4 @@ Try looking up help for the following things
 help mglOpen
 mglTestDots(0)
 edit mglTestDots % look at the code
-
-
 ```

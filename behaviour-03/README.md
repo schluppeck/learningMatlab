@@ -14,7 +14,7 @@ Together with the functions from the first session, we now have the following fu
 ``` matlab
 % get info from experimenter + subject
 [filename, nTrials, orientations] = getExperimentParams()
-function [hasConsented] = getSubjectInfo()
+[hasConsented] = getSubjectInfo()
 
 % open a screen and close a screen
 screenNumber = initializeScreen(screenNumber)
@@ -27,8 +27,7 @@ We are now in a position to go back to our initial plan and build up the general
 
 ## This session's aims
 
-
-- Let's make the function ``presentTrial()``
+Let's make the function ``presentTrial()``
 ``` matlab
 % decide on the function "interface" - inputs and outputs
 % initialize the screen for MGL
@@ -36,10 +35,49 @@ We are now in a position to go back to our initial plan and build up the general
 end
 ```
 
+## ... one possible way to run this
+
+Make a function ``oriDiscrim()`` (in its own m-file). This will be the main function that drives the experiment. It will contain the logic shown in the diagram above and call all the appropriate functions that we have written so far
+```matlab
+function oriDiscrim()
+% oriDiscrim - a simple orientation discrimination experiment + data analysis
+%
+%    <your documentation here>
+%
+
+% get info
+[filename, nTrials, orientations] = getExperimentParams()
+
+% get consent
+[hasConsented] = getSubjectInfo()
+
+% deal with whether subject has consented right here
+if hasConsented == false
+  disp('(!) subject has not consented - exiting')
+  % return from the main function...
+  return
+end
+
+% sort out details of the trials we want to show
+% ...
+
+% a big for loop that displays one trial after the other
+% ...
+
+% ... the final bits:
+% - analyzing the data and saving it out in a file
+
+end
+```
+
+
+
 ## Helpful commands
 
 Try looking up help for the following things
 
 ```matlab
 help mgl
+help mglLines2
+randperm()
 ```
