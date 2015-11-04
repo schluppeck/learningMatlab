@@ -27,18 +27,11 @@ We are now in a position to go back to our initial plan and build up the general
 
 ## This session's aims
 
-- A quick overview of how to present stimuli (MGL, OpenGL basics) - have a look at [this super-quick intro to MGL](introToMGL.md)
-- Working on a function that initializes the screen and puts up a fixation cross at the centre of the screen:
+
+- Let's make the function ``presentTrial()``
 ``` matlab
-function screenNumber = initializeScreen(screenNumber)
+% decide on the function "interface" - inputs and outputs
 % initialize the screen for MGL
-...
-end
-```
-- ... and a function the closes the screen (to be used at the end of the experiment). Optionally, it can display a "thank you message" before it closes the screen:
-```matlab
-function closeScreen()
-% closeScreen - close the MGL screen and say bye!
 ...
 end
 ```
@@ -48,6 +41,5 @@ end
 Try looking up help for the following things
 
 ```matlab
-help mglOpen
-mglTestDots(0)
-edit mglTestDots % look at the code
+help mgl
+```
