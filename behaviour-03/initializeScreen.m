@@ -46,8 +46,14 @@ colorDepth = 32;
 % actually open the screen
 mglOpen(screenNumber, screenSize(1), screenSize(2), refreshRate, colorDepth);
 
+% if it's the small display screen - move it a bit
+if screenNumber == 0
+  % move the small window to the top left corner
+  mglMoveWindow(50,750)
+end
+
 % grab the first value stored in the "measurements" variable. That's the
-% distance -- then grab the 2nd and 3rd together by using 
+% distance -- then grab the 2nd and 3rd together by using
 % measurements([2 3])
 mglVisualAngleCoordinates(measurements(1), measurements([2 3]));
 fprintf('(initializeScreen) Using visual angle coordinates\n')
@@ -55,7 +61,7 @@ fprintf('(initializeScreen) d=%.1f / w=%.1f / h=%.1f\n', measurements)
 
 % we might also want to clear the screen, this first time - just to make
 % sure there are any weird artefacts
-% mglClearScreen(0) % to black 
+% mglClearScreen(0) % to black
 mglClearScreen(0.5) % for gray
 
 % screenNumber will just pass through this function and be returned from
