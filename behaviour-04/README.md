@@ -118,23 +118,26 @@ We'd really like to get to a plot as follows and we'll try to get through this i
 The plotting part is actually very easy, but fitting the smooth curve through the points is quite tricky. To get to that point, we need to look at a couple of small extras. First though, you can grab a version of the summary data I have provided to get stuck in:
 
 1. The file ``summaryData.mat`` contains data to work with. At the command prompt, making sure the file is present (you may have to download the latest version via ``git pull``) do the following:
-```matlab
-load('summaryData.mat') % will load "data"
-data  % find out what's in it.
-```
+
+   ```matlab
+   load('summaryData.mat') % will load "data"
+   data  % find out what's in it.
+   ```
 
 2. Plot ``data``, using the numbers in the first column as the x-values, the second column as the y-values. The points should follow a sigmoid shape - this is typical for these psychometric curves: in this case a smooth transition from no **cw** responses for -10 deg, to all **cw** responses for +10 deg.
 
 3. A "nice" mathematical function / curve, that has such a shape and can be controlled with two convenient parameters is the cumulative version of the *normal distribution* (or *Gaussian* curve). You don't need to worry about the details too much, but if this rings a vague bell from previous statistics classes, that's great. If not, don't loose sleep over it. To get a bit of intuition for this, try running the following in a script
-```matlab
-x = -10:0.2:10; % many x values -10....+10
-p = normpdf(x, 0, 3);
-% plot the PDF (density function)
-figure, plot(x, p , 'r'); title('PDF');
-% the CUMULATIVE function
-c = normcdf(x, 0, 3);
-figure, plot(x, c , 'r'); title('CDF');
-```
+
+   ```matlab
+   x = -10:0.2:10; % many x values -10....+10
+   p = normpdf(x, 0, 3);
+   % plot the PDF (density function)
+   figure, plot(x, p , 'r'); title('PDF');
+   % the CUMULATIVE function
+   c = normcdf(x, 0, 3);
+   figure, plot(x, c , 'r'); title('CDF');
+   ```
+
 4. The 0 and 3 in the above example correspond to the mean (µ) and standard deviation (σ) of a normal distribution. Try plotting the CDF curve for σ = 1 and σ = 5 on the same plot. Then try changing µ, say µ = -2.5 and µ = +3.4. What happens to the curves?
 
 5. The *fitting* problem is: we'd like to know the "best" combination of µ and σ, such that the smooth curve they describe gets as close as possible to the data points. "Close" here means: in such a way that the squared error between the data and the corresponding points on the smooth curve is minimal... the **least squares** solution.
