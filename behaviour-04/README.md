@@ -135,7 +135,6 @@ figure, plot(x, p , 'r'); title('PDF');
 c = normcdf(x, 0, 3);
 figure, plot(x, c , 'r'); title('CDF');
 ```
-
 4. The 0 and 3 in the above example correspond to the mean (µ) and standard deviation (σ) of a normal distribution. Try plotting the CDF curve for σ = 1 and σ = 5 on the same plot. Then try changing µ, say µ = -2.5 and µ = +3.4. What happens to the curves?
 
 5. The *fitting* problem is: we'd like to know the "best" combination of µ and σ, such that the smooth curve they describe gets as close as possible to the data points. "Close" here means: in such a way that the squared error between the data and the corresponding points on the smooth curve is minimal... the **least squares** solution.
