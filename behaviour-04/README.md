@@ -146,6 +146,11 @@ figure, plot(x, c , 'r'); title('CDF');
 
   - we need to calculate the *squared error* between the data (the data-y-values at each point in x) and the model/fit with a particular combination of mu/sigma (also at the corresponding x-values). **How can we do this??**
 
+
+## Some more details and a worked solution
+
+Please take a bit of time to read more details and look at [a worked solution to this](solution-README.md) as the next session will be the start of a different project.
+
 ## Helpful commands
 
 Try looking up help for the following things
