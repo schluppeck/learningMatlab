@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="C84nim : Introduction to Matlab Programming">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>C84nim</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/schluppeck/c84nim">View on GitHub</a>
+
+          <h1 id="project_title">C84nim</h1>
+          <h2 id="project_tagline">Introduction to Matlab Programming</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/schluppeck/c84nim/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/schluppeck/c84nim/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="c84nim" class="anchor" href="#c84nim" aria-hidden="true"><span class="octicon octicon-link"></span></a>c84nim</h1>
+
+<h2>
+<a id="whats-this" class="anchor" href="#whats-this" aria-hidden="true"><span class="octicon octicon-link"></span></a>What's this?</h2>
+
+<p>Materials and exercises from the <em>Introduction to Matlab Programming (C84NIM UK)</em> course - part of the MSc Brain Imaging at the University of Nottingham.</p>
+
+<h2>
+<a id="who-is-it-for" class="anchor" href="#who-is-it-for" aria-hidden="true"><span class="octicon octicon-link"></span></a>Who is it for?</h2>
+
+<p>The course materials were developed for the students on the MSc Brain Imaging course at The University of Nottingham. The main aims is to help the graduate students to get to grips with the basic ideas of computer programming and, more specifically, the use of Matlab. At the same time, the exercises draw on material / requirements from other modules on the course and give us the opportunity for hands-on revision of some important concepts (time series data, linear/non-linear regression, etc.).  The syllabus is for a 10 week (10 x 2h) lab class, assuming very little computer experience (or maths) at the start.</p>
+
+<p>Feel free to use the code. I accept donations in the form of freshly roasted coffee beans.</p>
+
+<p>The structure of the course was designed by us (Dan Shub, now at Walter Read, <a href="http://www.wrnmmc.capmed.mil">www.wrnmmc.capmed.mil</a>; and Denis Schluppeck) to have 3 chunks.</p>
+
+<ol>
+<li>an introduction to the basic ideas (variables, functions, control flow) - running over <strong>the first 2 weeks</strong>. Check out the material in the <strong>aToZ-intro</strong> folder and the associated <a href="aToZ-intro">readme file here.</a>
+</li>
+<li>a hands-on group project, designing and programming up a simple, but working, behavioural experiment, <strong>4 weeks</strong>. A brief overview of this part of the course is in the <a href="behaviour-01">in the behaviour section.</a>
+</li>
+<li>a second project, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), <strong>4 weeks</strong>. Details on the imaging-related unitsis outlined in <a href="imaging-01">here.</a>
+</li>
+</ol>
+
+<h2>
+<a id="possible-timetable" class="anchor" href="#possible-timetable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Possible timetable</h2>
+
+<table>
+<thead>
+<tr>
+<th>Week</th>
+<th>Unit</th>
+<th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="aToZ-intro">aToZ-intro</a></td>
+<td>What is Matlab, the environment, variables, indexing, ...</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="aToZ-intro">aToZ-intro</a></td>
+<td>Logical variables, indexing, looping, branching, functions, ...</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="behaviour-01">behaviour-01</a></td>
+<td>Overview: building a simple psychophysical experiment; info from experimenter &amp; subject</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="behaviour-02">behaviour-02</a></td>
+<td>Making a stimulus and putting it up on the screen</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="behaviour-03">behaviour-03</a></td>
+<td>Getting responses from the subject &amp; fine-tuning</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="behaviour-04">behaviour-04</a></td>
+<td>Analyzing the behavioural data, fitting and plotting</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="imaging-01">imaging-01</a></td>
+<td>Building / fixing up a simple image viewer</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="imaging-02">imaging-02</a></td>
+<td>A function that constructs a simple design matrix</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="imaging-03">imaging-03</a></td>
+<td>Hands-on linear regression (using a sample timecourse)</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="imaging-04">imaging-04</a></td>
+<td>Doing regression <em>stats</em>, displaying, ... Close</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="how-to-get-these-materials" class="anchor" href="#how-to-get-these-materials" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to get these materials</h2>
+
+<p>Assuming you are on a Mac: open up a <code>Terminal</code> (double-click /Applications/Utilities/Terminal). Then do the following:</p>
+
+<div class="highlight highlight-source-shell"><pre><span class="pl-c"># if you don't already have one: create a ``matlab`` directory in your home space (``~``), then change directory to it:</span>
+<span class="pl-c1">cd</span> <span class="pl-k">~</span>
+mkdir matlab
+<span class="pl-c1">cd</span> matlab  
+<span class="pl-c"># get MGL</span>
+git clone https://github.com/justingardner/mgl.git
+<span class="pl-c"># get these tutorials</span>
+git clone https://github.com/schluppeck/c84nim.git</pre></div>
+
+<p>You'll need to add both these subfolders to your path; then you should be good to go:</p>
+
+<div class="highlight highlight-source-matlab"><pre><span class="pl-k">addpath</span>(<span class="pl-k">genpath</span>(<span class="pl-s"><span class="pl-pds">'</span>~/matlab/<span class="pl-pds">'</span></span>))</pre></div>
+
+<h2>
+<a id="grabbing-updates" class="anchor" href="#grabbing-updates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Grabbing updates</h2>
+
+<p>To make sure you have any updates to this material, open a Termina, change directory to the <code>c84nim</code> folder and issue <code>git pull</code> . This will sync you the material on github.</p>
+
+<h2>
+<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes</h2>
+
+<ul>
+<li>In the 2015/2016 iteration of the course, I have modified the hands-on project for building a simple behavioural task to use <strong>mgl</strong> (<a href="https://github.com/justingardner/mgl">https://github.com/justingardner/mgl</a>). Although this requires teaching a couple more details on how stimuli are being displayed by the OpenGL machinery and it's not pure Matlab, it's (a) more realistic and (b) makes displaying different kinds of stimuli, obtaining keyboard responses, etc. much more fun and doable.</li>
+</ul>
+
+<h2>
+<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h2>
+
+<p><a href="mailto:denis.schluppeck@nottingham.ac.uk">denis.schluppeck@nottingham.ac.uk</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">C84nim maintained by <a href="https://github.com/schluppeck">schluppeck</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
