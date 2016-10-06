@@ -6,25 +6,25 @@
 ``rand()``, ``round()``, ``floor()`` (round down), ``ceil()`` (round up), ``repmat()``, random numbers, random ordering of numbers
 
 1. Make sure to ``clear all`` before starting on these exercises. Keep some notes on what's going on and try to understand each step and then move on to the next section
-```matlab
-x = 1:10
-e = rand(1,10)
-s = x+e
-```
+  ```matlab
+  x = 1:10
+  e = rand(1,10)
+  s = x+e
+  ```
 
 2. Different functions for rounding (to the nearest integer):
-```matlab
-% single numbers
-round(0.5)
-round(0.49)
-round(0.51)
-% ... and vectors
-round(e)
-round(s)
-% and a slightly different ways
-floor(s) % to the nearest integer down
-ceil(s)	 % to the nearest integer up
-```
+  ```matlab
+  % single numbers
+  round(0.5)
+  round(0.49)
+  round(0.51)
+  % ... and vectors
+  round(e)
+  round(s)
+  % and a slightly different ways
+  floor(s) % to the nearest integer down
+  ceil(s)	 % to the nearest integer up
+  ```
 
 3. Create a column vector ``r`` of size 100 that contains randomly chosen ``0`` or ``1``, each with equal probability.
 
