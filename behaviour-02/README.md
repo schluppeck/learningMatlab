@@ -54,6 +54,19 @@ function closeScreen()
 end
 ```
 
+## Making sure MGL is on the path
+
+You need to make sure that MGL is "on Matlab's path" (so Matlab knows where the MGL functions are stored on your computer). 
+
+In the computer labs at Psychology, the following will do the trick: 
+
+```matlab
+addpath(genpath('/Volumes/practicals/ds1/mgl/'))
+```
+
+If you have a local copy of the MGL toolbox, then replace the ``'/Volumes/practicals/ds1/mgl/'`` with the location of the MGL folder you downloaded.
+
+
 ## Helpful commands
 
 Try looking up help for the following things
