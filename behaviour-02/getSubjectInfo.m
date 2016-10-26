@@ -19,15 +19,6 @@ function [hasConsented] = getSubjectInfo()
 %
 %    ds - 2015-10-20
 
-
-% This function returns a structure (data) that contains the required
-% fields. The subject is queried with a GUI to determine whether or not the
-% subject has consented and saves the result of the query in the data
-% structure (consented).
-
-% Create a data structure that holds the information about the subject.
-data = struct('consented', logical.empty);
-
 % Ask the subject for information.
 temp = questdlg('Have you consented to take part in this study', ...
     'Consent', 'Yes', 'No', 'No');
