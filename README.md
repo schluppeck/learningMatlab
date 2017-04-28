@@ -43,7 +43,7 @@ cd matlab
 # get MGL
 git clone https://github.com/justingardner/mgl.git
 # get these tutorials
-git clone https://github.com/schluppeck/c84nim.git
+git clone https://github.com/schluppeck/learningMatlab.git
 ```
 
 You'll need to add both these subfolders to your path; then you should be good to go:
