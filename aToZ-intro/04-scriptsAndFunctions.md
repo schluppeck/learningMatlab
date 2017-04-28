@@ -8,7 +8,7 @@ Matlab is an interpreted language. So far, you've just been working at the comma
 - a script will be executed line by line (sequentially)
 - convention for filename: ``someNameYouLike.m`` (``.m`` ending)
 - when you want to run the script from the command line, then you can call it by its filename (without the ``.m`` ending):
-```matlab```
+```matlab
 >> someNameYouLike
 ```
 
