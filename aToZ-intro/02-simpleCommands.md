@@ -14,7 +14,7 @@
   c = 2
   ```
 
-2. Is the following allowed (correct synactically)? Why?:
+2. Is the following allowed (correct syntactically)? Why?:
   ```matlab
   a .* c
   a .* b

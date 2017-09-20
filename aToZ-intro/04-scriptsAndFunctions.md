@@ -14,7 +14,7 @@ Matlab is an interpreted language. So far, you've just been working at the comma
 
 - these files are just simple text files and you can edit them in any editor you like (TextEdit, WinEdit, emacs, vim, SublimeText, ...)
 
-- but the **Matlab Code Editor** has some nice features that help you write better code, so I recommend you explore using it. I used to be a dyed-in-the-wool ``emacs`` user, but recently have switched to the Matlab editor for writing Matlab code because, in my opinion, it gives a much better overall experience.
+- but the **Matlab Code Editor** has some nice features that help you write better code, so I recommend you explore using it. I used to be a dyed-in-the-wool ``emacs`` (now ``atom``) user, but have switched to the Matlab editor for writing Matlab code because, in my opinion, it gives a much better overall experience.
 
 Scripts are really the first step in making things you have to do over and over again much more tractable. Imagine a situation in which you have to run the (nearly) same sequence of 10 or 15 commands several times over. There are many problems with this, but the most striking ones are:
 
