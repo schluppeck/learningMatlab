@@ -26,7 +26,7 @@ To control this kind of behaviour, one thing we need to be able to test whether 
 
 Logical variables, sometimes also called "booleans", store whether a condition is "true" or "false", 1 or 0. You can check whether one value is the same as another with the ``==`` operator, but there are also many other comparisons you can make. In Matlab-speak these are called *Relational Operators*.
 
- **relop** | **meaning**          
+ relop | meaning          
  ----------|-------
  ``<``     | is smaller?          
  ``<=``    | is smaller or equal?
