@@ -26,14 +26,14 @@ To control this kind of behaviour, one thing we need to be able to test whether 
 
 Logical variables, sometimes also called "booleans", store whether a condition is "true" or "false", 1 or 0. You can check whether one value is the same as another with the ``==`` operator, but there are also many other comparisons you can make. In Matlab-speak these are called *Relational Operators*.
 
- relop | meaning          
- ----------|-------
- ``<``     | is smaller?          
- ``<=``    | is smaller or equal?
- ``>``     | is bigger?           
- ``>=``    | is bigger or equal?  
- ``==``    | is equal?            
- ``~=``    | is not equal?        
+| relop  | meaning              |
+|:-------|:---------------------|
+| ``<``  | is smaller?          |
+| ``<=`` | is smaller or equal? |
+| ``>``  | is bigger?           |
+| ``>=`` | is bigger or equal?  |
+| ``==`` | is equal?            |
+| ``~=`` | is not equal?        |
  -----------------
 
 
@@ -116,13 +116,17 @@ Also keep in mind:
 
 ```matlab
   for iCounter = 1:10 % AVOID
-      ... % and so on
-    end
+    ... % and so on
+  end
 
-    nIterations = 10; % BETTER
-    for iIteration = 1:nIterations
-      ... % and so on
-    end
+  nIterations = 10; % BETTER
+  for iIteration = 1:nIterations
+    ... % and so on
+  end
 ```
 
 The version using ``nIterations = 10`` is much better, because it allows you to make other bits of your code depend on that number too (but stored in a variable). So if you change your mind later and want to iterate over 100 values instead, you can simply change things in one place.
+
+# Next
+
+[Debugging other people's code](07-debugTheCode.md) - find the problem.

@@ -6,8 +6,10 @@
 
 The following are really the most basic "exercises" to get everyone started on doing simple maths on the command line. Nothing particularly exciting here, apart from the last couple of exercises that are a bit more maths-y (but not particularly Matlab-heavy).
 
+In the command prompt, try to work out the following:
+
 1.	3/2
-2.	value of π (what do you think this could be called in Matlab?)
+2.	value of π (as in 3.1415.. the ratio of circumference to diameter of a circle; what do you think this could be called in Matlab?)
 3.	two times π
 4.	2 to the power of 8
 5.	4 to the power of 3
@@ -18,7 +20,7 @@ The following are really the most basic "exercises" to get everyone started on d
 
 And look at the following exercises briefly to make some vectors / list of numbers.
 
-1.	Make a variable a containing the number ``10``
+1.	Make a variable ``a`` containing the number ``10``
 2.	Find out more about ``a`` with ``whos`` and ``openvar``
 3.	Make a **column vector** ``b`` containing ``1 2 3``
 4.	Now redefine ``b`` to be a **row vector** containing ``1 2 3``

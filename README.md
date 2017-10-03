@@ -14,7 +14,7 @@ The structure of the course was designed by us (Dan Shub, now at Walter Read, ww
 
 1. an introduction to the basic ideas (variables, functions, control flow) - running over **the first 4 weeks**. Check out the material in the **aToZ-intro** folder and the associated [readme file here.](aToZ-intro)
 2. a hands-on group project, designing and programming up a simple, but working, behavioural experiment, **6 weeks**. A brief overview of this part of the course is in the [in the behaviour section.](behaviour-01)
-2a. an **alternative** project, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), **6 weeks**. Details on the imaging-related units is outlined in [here.](imaging-01)
+3. an **alternative** project, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), **6 weeks**. Details on the imaging-related units is outlined in [here.](imaging-01)
 
 ## Possible timetable
 
