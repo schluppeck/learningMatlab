@@ -126,3 +126,7 @@ Also keep in mind:
 ```
 
 The version using ``nIterations = 10`` is much better, because it allows you to make other bits of your code depend on that number too (but stored in a variable). So if you change your mind later and want to iterate over 100 values instead, you can simply change things in one place.
+
+# Next
+
+[Debugging other people's code](07-debugTheCode.md) - find the problem.
