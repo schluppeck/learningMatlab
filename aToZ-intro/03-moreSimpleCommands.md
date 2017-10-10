@@ -36,6 +36,15 @@
 
 7. Find a way to make a matrix ``X`` that has 50 rows and 3 columns. Column 1 should contain 1..50. Column 2 should contain 1^2..50^2 and Column 3, √1..√50.
 
+## How is this useful?
+
+To motivate some of these exercises with something that's a bit closer to a real-life situation:
+
+Open the following text file that contains
+<a href="lab02_timecourse.txt" target="new">a column of data</a>. You can make an empty variable, say ``z`` by assigning an empty list to it: ``z = []``. Then open it in the variable viewer and paste the contents of the text file into it.
+
+Can you figure out how to (interactively) make a plot of those numbers?
+
 
 ##  Next
 
