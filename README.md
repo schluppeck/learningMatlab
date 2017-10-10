@@ -2,7 +2,11 @@
 
 ## What's this?
 
-Materials and exercises from the *Introduction to Matlab Programming* course.
+Materials and exercises from the *Introduction to Matlab Programming* course. For **viewing** the materials try
+
+http://schluppeck.github.io/learningMatlab/
+
+
 
 ## Who is it for? What are the aims?
 
