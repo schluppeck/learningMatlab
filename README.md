@@ -1,16 +1,16 @@
-# learningMatlab (``c84nim``)
+# learningMatlab
 
 ## What's this?
 
-Materials and exercises from the *Introduction to Matlab Programming (C84NIM UK)* course - part of the MSc Brain Imaging at the University of Nottingham.
+Materials and exercises from the *Introduction to Matlab Programming* course.
 
-## Who is it for?
+## Who is it for? What are the aims?
 
-The course materials were developed for the students on the MSc Brain Imaging course at The University of Nottingham. The main aims is to help the graduate students to get to grips with the basic ideas of computer programming and, more specifically, the use of Matlab. At the same time, the exercises draw on material / requirements from other modules on the course and give us the opportunity for hands-on revision of some important concepts (time series data, linear/non-linear regression, etc.).  The syllabus is for a 10 week (10 x 2h) lab class, assuming very little computer experience (or maths) at the start.
+The course materials started out for a graduate course for psychologists and neuroscientists. The main aims is to help the students to get to grips with the basic ideas of computer programming and, more specifically, the use of Matlab. At the same time, the exercises draw on material / requirements from other courses and may give the opportunity for hands-on revision of some important concepts (time series data, linear/non-linear regression, etc.). The syllabus is for a 10 week (10 x 2h) lab class, assuming very little computer experience (or maths) at the start.
 
 Feel free to use the code. I accept donations in the form of freshly roasted coffee beans.
 
-The structure of the course was designed by us (Dan Shub, now at Walter Read, www.wrnmmc.capmed.mil; and Denis Schluppeck) to have 3 chunks. Schluppeck has been tinkering with the course more recently.
+The structure of the course was designed to have 3 chunks. Schluppeck has been tinkering with the course more recently.
 
 1. an introduction to the basic ideas (variables, functions, control flow) - running over **the first 4 weeks**. Check out the material in the **aToZ-intro** folder and the associated [readme file here.](aToZ-intro)
 2. a hands-on group project, designing and programming up a simple, but working, behavioural experiment, **6 weeks**. A brief overview of this part of the course is in the [in the behaviour section.](behaviour-01)
@@ -68,4 +68,4 @@ To make sure you have any updates to this material, open a Terminal, change dire
 
 ## Contact
 
-denis.schluppeck@nottingham.ac.uk
+https://twitter.com/schluppeck
