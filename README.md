@@ -2,11 +2,18 @@
 
 ## What's this?
 
-Materials and exercises from the *Introduction to Matlab Programming* course. For **viewing** the materials try
+Materials and exercises from the *Introduction to Matlab Programming* course.
 
-http://schluppeck.github.io/learningMatlab/
+For **viewing** the materials use: <a href="http://schluppeck.github.io/learningMatlab/">
+http://schluppeck.github.io/learningMatlab/</a>
 
+For inspecting the code and details: <a href="https://github.com/schluppeck/learningMatlab">https://github.com/schluppeck/learningMatlab</a>
 
+## Get me started!
+
+The first place to check out is the [aToZ-intro](aToZ-intro)
+
+Find PDF materials in one place in the [matlab primer](c84nim-exercises.pdf)
 
 ## Who is it for? What are the aims?
 
@@ -72,4 +79,4 @@ To make sure you have any updates to this material, open a Terminal, change dire
 
 ## Contact
 
-https://twitter.com/schluppeck
+<a href="https://twitter.com/schluppeck">https://twitter.com/schluppeck</a>
