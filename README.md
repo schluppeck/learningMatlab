@@ -13,7 +13,7 @@ For inspecting the code and details: <a href="https://github.com/schluppeck/lear
 
 The first place to check out is the [aToZ-intro](aToZ-intro)
 
-Find PDF materials in one place in the [matlab primer](c84nim-exercises.pdf)
+Find PDF materials in one place in the [matlab primer](aToZ-intro/c84nim-exercises.pdf)
 
 ## Who is it for? What are the aims?
 
