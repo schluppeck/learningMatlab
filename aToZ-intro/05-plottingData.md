@@ -59,4 +59,4 @@ plot(x,y, 'rs--', x,y2, 'bo-') % two plots in one
 
 # Next
 
-[Loops, if/else, controlling flow](06-loopsAndControls.md) - making simple plots.
+[Loops, if/else, controlling flow](06-loopsAndControls.md) - loops and controls
