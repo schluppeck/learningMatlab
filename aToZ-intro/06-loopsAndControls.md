@@ -34,7 +34,6 @@ Logical variables, sometimes also called "booleans", store whether a condition i
 | ``>=`` | is bigger or equal?  |
 | ``==`` | is equal?            |
 | ``~=`` | is not equal?        |
- -----------------
 
 
 ## Combining logical values

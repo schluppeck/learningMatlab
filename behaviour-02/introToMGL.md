@@ -48,7 +48,7 @@ Return to [the description of this week's aims](README.md)
 
 ## Links
 
-- The [MGL website](http;//gru.stanford.edu/mgl)
+- The [MGL website](http://gru.stanford.edu/mgl) and the [MGL github repo](http://github.com/justingardner/mgl)
 
 - Some detailed [information about OpenGL](https://www.opengl.org). You can also find lots and lots of tutorials via google and youtube.
 
