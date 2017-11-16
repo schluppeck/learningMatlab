@@ -20,6 +20,25 @@ figure
 plot(x,y,'color', colors(1,:)); % first in the "family"
 ```
 
+<details>
+  <summary>Hint 1</summary>
+  
+  Step one in solving this problem could be to figure out how to calculate the ``y`` values in a loop (and worry about the plotting later).
+  
+  ```matlab
+  % how many parameters?
+  nParams = numel(mus); % if we grow the vector this will still work
+  % now loop from 1...nParams
+  for iParam = 1:nParams
+    y = y = normcdf(x, mus(iParam), sigmas(iParam));
+  end
+  ```
+  
+  This code picks the first element of ``mus`` and ``sigmas`` on the first iteration, the second on the second iteration, etc.
+  
+  But ``y`` gets over-written each time we go through the loop. That's fine for here, but you could think about how to keep hold on to that information instead.
+  
+</details>
 
 
 # Next
