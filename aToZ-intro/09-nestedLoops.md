@@ -84,14 +84,18 @@ end
   - by calculating the row and column numbers from the one counter?
 
 <details><summary>Hint - linear indexing</summary><p>
+
 Look up / google *linear indexing* and remind yourself how that can be used to "address" a particular element in the table/matrix.
+
 </p></details>
 
 4. Turn your code into a function that can handle 2D matrices of any size (square or rectangular).
   - bonus: add reality / error checks to make sure the input is really 2D
   - bonus: your function returns the sum of all elements (and as a second argument, the number of elements in the matrix)
 <details><summary>Hint </summary><p>
+
 Use ``if/else`` to check the number of dimensions; the command ``ndims()`` will help.
+
 </p></details>
 
 # Next
