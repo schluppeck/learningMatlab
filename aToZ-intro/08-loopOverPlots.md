@@ -78,16 +78,14 @@ end
 <summary>Hint 4 - put it all together</summary><p>
 
 ```matlab
-% how many parameters?
 nParams = numel(mus);
 figure % make a new figure window
 for iParam = 1:nParams
-  y = rand( size(x) ); % make something random of correct size
+  % make a new y, using consecutive mus and sigmas!
+  y = normcdf(x, mus(iParam), sigmas(iParam));
   theColor = colors(iParam, :); % pick the i'th row
   plot(x, y, 'color', theColor );
   hold('on'); % make sure you don't erase
-  % the following also works...
-  % hold on
 end
 ```
 </p></details>
