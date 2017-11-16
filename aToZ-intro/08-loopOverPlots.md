@@ -47,7 +47,7 @@ figure % make a new figure window
 % now loop from 1...nParams
 for iParam = 1:nParams
   y = rand( size(x) ); % make something random of correct size
-  plot(x, y);
+  plot(x, y, 'k'); % k -> black lines
   hold('on'); % make sure you don't erase
   % the following also works...
   % hold on
@@ -74,6 +74,23 @@ end
 ```
 </p></details>
 
+<details>
+<summary>Hint 4 - put it all together</summary><p>
+
+```matlab
+% how many parameters?
+nParams = numel(mus);
+figure % make a new figure window
+for iParam = 1:nParams
+  y = rand( size(x) ); % make something random of correct size
+  theColor = colors(iParam, :); % pick the i'th row
+  plot(x, y, 'color', theColor );
+  hold('on'); % make sure you don't erase
+  % the following also works...
+  % hold on
+end
+```
+</p></details>
 
 # Next
 
