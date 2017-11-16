@@ -75,7 +75,7 @@ for iRow = 1:nRows
     end
 end
 ```
-</p></details>
+</p></details><br>
 
 2. How can you traverse across first? What changes are required in your code?
 
@@ -87,7 +87,7 @@ end
 
 Look up / google *linear indexing* and remind yourself how that can be used to "address" a particular element in the table/matrix.
 
-</p></details>
+</p></details><br>
 
 4. Turn your code into a function that can handle 2D matrices of any size (square or rectangular).
   - bonus: add reality / error checks to make sure the input is really 2D
@@ -96,7 +96,7 @@ Look up / google *linear indexing* and remind yourself how that can be used to "
 
 Use ``if/else`` to check the number of dimensions; the command ``ndims()`` will help.
 
-</p></details>
+</p></details><br>
 
 # Next
 
