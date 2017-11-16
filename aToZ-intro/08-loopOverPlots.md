@@ -10,7 +10,7 @@ Given the following data, find a way to plot a family of curves in the same figu
 
 ```matlab
 x = linspace(-3,3,100);
-mus = [-1, -0.5, 0, +0,5, 1];
+mus = [-1, -0.5, 0, +0.5, 1];
 sigmas = [0.5, 0.5, 1, 2, 2];
 colors = parula(5);
 
@@ -20,7 +20,7 @@ figure
 plot(x,y,'color', colors(1,:)); % first in the "family"
 ```
 
-<details><summary>Hint 1</summary><p>
+<details><summary>Hint 1 - calculate y in loop</summary><p>
 Step one in solving this problem could be to figure out how to calculate the ``y`` values in a loop (and worry about the plotting later).
 
 ```matlab
@@ -37,7 +37,7 @@ This code picks the first element of ``mus`` and ``sigmas`` on the first iterati
 But ``y`` gets over-written each time we go through the loop. That's fine for here, but you could think about how to keep hold on to that information instead.
 </p></details>
 
-<details><summary>Hint 2</summary><p>
+<details><summary>Hint 2 - plot on top of other stuff</summary><p>
 Step two in solving this problem could be to figure out how to plot one thing on top of another...
 
 ```matlab
@@ -56,7 +56,7 @@ end
 </p></details>
 
 <details>
-<summary>Hint 3</summary><p>
+<summary>Hint 3 - pick different colors</summary><p>
 Step 3 is to pick a different colour each time...
 
 ```matlab
