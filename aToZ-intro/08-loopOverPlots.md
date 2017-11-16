@@ -54,8 +54,7 @@ for iParam = 1:nParams
   % the following also works...
   % hold on
 end
-```
-</p>
+```</p>
 
 <details>
 <summary>Hint 3</summary>
@@ -75,7 +74,7 @@ for iParam = 1:nParams
 end
 ```
 </p>
-
+</details>
 
 
 # Next
