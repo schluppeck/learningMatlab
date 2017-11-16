@@ -34,8 +34,8 @@ end
 
 This code picks the first element of ``mus`` and ``sigmas`` on the first iteration, the second on the second iteration, etc.
 
-But ``y`` gets over-written each time we go through the loop. That's fine for here, but you could think about how to keep hold on to that information instead.</p>
-</details>
+But ``y`` gets over-written each time we go through the loop. That's fine for here, but you could think about how to keep hold on to that information instead.
+</p></details>
 
 <details><summary>Hint 2</summary><p>
 Step two in solving this problem could be to figure out how to plot one thing on top of another...
@@ -52,8 +52,8 @@ for iParam = 1:nParams
   % the following also works...
   % hold on
 end
-```</p>
-</details>
+```
+</p></details>
 
 <details>
 <summary>Hint 3</summary><p>
@@ -72,8 +72,7 @@ for iParam = 1:nParams
   % hold on
 end
 ```
-</p>
-</details>
+</p></details>
 
 
 # Next
