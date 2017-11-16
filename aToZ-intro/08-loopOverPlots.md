@@ -20,8 +20,8 @@ figure
 plot(x,y,'color', colors(1,:)); % first in the "family"
 ```
 
-<details><summary>Hint 1</summary>
-<p>Step one in solving this problem could be to figure out how to calculate the ``y`` values in a loop (and worry about the plotting later).
+<details><summary>Hint 1</summary><p>
+Step one in solving this problem could be to figure out how to calculate the ``y`` values in a loop (and worry about the plotting later).
 
 ```matlab
 % how many parameters?
@@ -37,8 +37,8 @@ This code picks the first element of ``mus`` and ``sigmas`` on the first iterati
 But ``y`` gets over-written each time we go through the loop. That's fine for here, but you could think about how to keep hold on to that information instead.</p>
 </details>
 
-<details><summary>Hint 2</summary>
-<p>Step two in solving this problem could be to figure out how to plot one thing on top of another...
+<details><summary>Hint 2</summary><p>
+Step two in solving this problem could be to figure out how to plot one thing on top of another...
 
 ```matlab
 % how many parameters?
@@ -56,8 +56,8 @@ end
 </details>
 
 <details>
-<summary>Hint 3</summary>
-<p>Step 3 is to pick a different colour each time...
+<summary>Hint 3</summary><p>
+Step 3 is to pick a different colour each time...
 
 ```matlab
 % how many parameters?
