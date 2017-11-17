@@ -22,6 +22,7 @@ row=6, column=6, VALUE: 9
 ```
 
 <details><summary>Hint 1 - loop over rows</summary><p>
+
 Step one is to think about how to loop over one dimension of this table... row 1, 2, ..
 
 - How big is ``X``? Hard-code the number of rows
@@ -43,6 +44,7 @@ end
 </p></details>
 
 <details><summary>Hint 2 - loop over columns</summary><p>
+
 Step two... the natural step is to try out the other way... we now need to put the index in the 2nd position!
 
 ```matlab
@@ -56,6 +58,7 @@ end
 </p></details>
 
 <details><summary>Hint 3 - loop over both</summary><p>
+
 Now, let's put those two things together. Read through the comments in the code and make sure you understand exactly what's happening. Draw a diagram of the matrix / table and indicate in which way the code steps through...
 
 ```matlab
