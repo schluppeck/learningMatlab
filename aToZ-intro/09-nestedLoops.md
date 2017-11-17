@@ -27,6 +27,7 @@ Step one is to think about how to loop over one dimension of this table... row 1
 
 - How big is ``X``? Hard-code the number of rows
 
+<pre>
 <code>
 % how big is X?
 size(X) % 6 by 6
@@ -41,6 +42,7 @@ for iRow = 1:nRows
    X(iRow, :)  % this picks each row in turn
 end
 </code>
+</pre>
 
 </p></details>
 
@@ -48,6 +50,7 @@ end
 
 Step two... the natural step is to try out the other way... we now need to put the index in the 2nd position!
 
+<pre>
 <code>
 nRows = size(X,1);
 nColumns = size(X,2);
@@ -56,6 +59,8 @@ for iColumn = 1:nColumns
    X(:, iColumn)  % this picks each COLUMN in turn
 end
 </code>
+</pre>
+
 
 </p></details>
 
@@ -63,6 +68,7 @@ end
 
 Now, let's put those two things together. Read through the comments in the code and make sure you understand exactly what's happening. Draw a diagram of the matrix / table and indicate in which way the code steps through...
 
+<pre>
 <code>
 nRows = size(X,1);
 nColumns = size(X,2);
@@ -80,6 +86,8 @@ for iRow = 1:nRows
     end
 end
 </code>
+</pre>
+
 </p></details><br>
 
 2. How can you traverse across first? What changes are required in your code?
