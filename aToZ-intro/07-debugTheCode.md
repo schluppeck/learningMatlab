@@ -9,10 +9,9 @@ Each of the following examples has **one or more** issues. Identify them and try
 x = zeros(10,1);
 x[9] = 1; % set the 9th element to 1
 ```
-<br>
 ```matlab
 y = (ones(10,1), zeros(10,1)); % a long column
-```<br>
+```
 ```matlab
 z = Mean( rand(100,1)  );  % taking the mean
 ```
@@ -27,13 +26,11 @@ for i in 1:10
   end
 end
 ```
-<br>
 ```matlab
 % calculate the mean
 nums = randn(100,1);
 mean = sum(nums)./numel(nums); % BAD! why??
 ```
-<br>
 ```matlab
 % calculate the variance
 nums = randn(100,1);
@@ -50,7 +47,6 @@ foO = mode(nums);
 fOo = var(nums);
 fO0 = std(nums)./mean(nums);
 ```
-<br>
 ```matlab
 x = -2:0.2:2;
 y = x.^2-1+1/3-x-2.*0.2;
