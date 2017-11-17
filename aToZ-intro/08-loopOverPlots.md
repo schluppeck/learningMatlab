@@ -24,14 +24,17 @@ plot(x,y,'color', colors(1,:)); % first in the "family"
   
 Step one in solving this problem could be to figure out how to calculate the ``y`` values in a loop (and worry about the plotting later).
 
-```matlab
+<pre>
+<code>
 % how many parameters?
 nParams = numel(mus); % if we grow the vector this will still work
 % now loop from 1...nParams
 for iParam = 1:nParams
   y = normcdf(x, mus(iParam), sigmas(iParam));
 end
-```
+</code>
+</pre>
+
 
 This code picks the first element of ``mus`` and ``sigmas`` on the first iteration, the second on the second iteration, etc.
 
@@ -42,7 +45,8 @@ But ``y`` gets over-written each time we go through the loop. That's fine for he
   
 Step two in solving this problem could be to figure out how to plot one thing on top of another...
 
-```matlab
+<pre>
+<code>
 % how many parameters?
 nParams = numel(mus); % if we grow the vector this will still work
 figure % make a new figure window
@@ -54,7 +58,9 @@ for iParam = 1:nParams
   % the following also works...
   % hold on
 end
-```
+</code>
+</pre>
+
 </p></details>
 
 <details>
@@ -62,7 +68,8 @@ end
   
 Step 3 is to pick a different colour each time...
 
-```matlab
+<pre>
+<code>
 % how many parameters?
 nParams = numel(mus);
 figure % make a new figure window
@@ -74,13 +81,15 @@ for iParam = 1:nParams
   % the following also works...
   % hold on
 end
-```
+</code>
+</pre>
 </p></details>
 
 <details>
 <summary>Hint 4 - put it all together</summary><p>
 
-```matlab
+<pre>
+<code>
 nParams = numel(mus);
 figure % make a new figure window
 for iParam = 1:nParams
@@ -90,7 +99,9 @@ for iParam = 1:nParams
   plot(x, y, 'color', theColor );
   hold('on'); % make sure you don't erase
 end
-```
+</code>
+</pre>
+
 </p></details>
 
 # Next
