@@ -27,7 +27,7 @@ Step one is to think about how to loop over one dimension of this table... row 1
 
 - How big is ``X``? Hard-code the number of rows
 
-```matlab
+<code>
 % how big is X?
 size(X) % 6 by 6
 
@@ -40,28 +40,30 @@ nRows = size(X,1);
 for iRow = 1:nRows
    X(iRow, :)  % this picks each row in turn
 end
-```
+</code>
+
 </p></details>
 
 <details><summary>Hint 2 - loop over columns</summary><p>
 
 Step two... the natural step is to try out the other way... we now need to put the index in the 2nd position!
 
-```matlab
+<code>
 nRows = size(X,1);
 nColumns = size(X,2);
 
 for iColumn = 1:nColumns
    X(:, iColumn)  % this picks each COLUMN in turn
 end
-```
+</code>
+
 </p></details>
 
 <details><summary>Hint 3 - loop over both</summary><p>
 
 Now, let's put those two things together. Read through the comments in the code and make sure you understand exactly what's happening. Draw a diagram of the matrix / table and indicate in which way the code steps through...
 
-```matlab
+<code>
 nRows = size(X,1);
 nColumns = size(X,2);
 
@@ -77,7 +79,7 @@ for iRow = 1:nRows
         X(iRow, iColumn)  % need to say which ROW and COLUMN
     end
 end
-```
+</code>
 </p></details><br>
 
 2. How can you traverse across first? What changes are required in your code?
@@ -88,7 +90,7 @@ end
 
 <details><summary>Hint - linear indexing</summary><p>
 
-Look up / google *linear indexing* and remind yourself how that can be used to "address" a particular element in the table/matrix.
+Look up / google <emph>linear indexing</emph> and remind yourself how that can be used to "address" a particular element in the table/matrix.
 
 </p></details><br>
 
@@ -97,7 +99,7 @@ Look up / google *linear indexing* and remind yourself how that can be used to "
   - bonus: your function returns the sum of all elements (and as a second argument, the number of elements in the matrix)
 <details><summary>Hint </summary><p>
 
-Use ``if/else`` to check the number of dimensions; the command ``ndims()`` will help.
+Use <code>if/else</code> to check the number of dimensions; the command <code>ndims()</code> will help.
 
 </p></details><br>
 
