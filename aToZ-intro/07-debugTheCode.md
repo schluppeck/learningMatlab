@@ -8,7 +8,8 @@ Each of the following examples has **one or more** issues. Identify them and try
 ```matlab
 x = zeros(10,1);
 x[9] = 1; % set the 9th element to 1
-```<br>
+```
+<br>
 ```matlab
 y = (ones(10,1), zeros(10,1)); % a long column
 ```<br>
@@ -25,12 +26,14 @@ for i in 1:10
     i = 4;
   end
 end
-```<br>
+```
+<br>
 ```matlab
 % calculate the mean
 nums = randn(100,1);
 mean = sum(nums)./numel(nums); % BAD! why??
-```<br>
+```
+<br>
 ```matlab
 % calculate the variance
 nums = randn(100,1);
@@ -46,7 +49,8 @@ Foo = median(nums);
 foO = mode(nums);
 fOo = var(nums);
 fO0 = std(nums)./mean(nums);
-```<br>
+```
+<br>
 ```matlab
 x = -2:0.2:2;
 y = x.^2-1+1/3-x-2.*0.2;
