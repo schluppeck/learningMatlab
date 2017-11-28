@@ -23,7 +23,7 @@ closeScreen()
 
 We are now in a position to go back to our initial plan and build up the general logic of the program.
 
-<img src="https://github.com/schluppeck/c84nim/blob/master/behaviour-01/flowChart.png" height="500">
+<img src="../behaviour-01/flowChart.png" height="500">
 
 ## This session's aims
 
