@@ -4,7 +4,7 @@
 
 The aim is to plot and fit data to achieve something like the following:
 
-<img src="https://github.com/schluppeck/c84nim/blob/master/behaviour-04/psychometric-curve.png" height="500">
+<img src="../behaviour-04/psychometric-curve.png" height="500">
 
 1. The file ``summaryData.mat`` contains data to work with. At the command prompt, do the following:
 
