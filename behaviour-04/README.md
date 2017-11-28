@@ -113,7 +113,7 @@ help sortData
 
 We'd really like to get to a plot as follows and we'll try to get through this in this session:
 
-<img src="https://github.com/schluppeck/c84nim/blob/master/behaviour-04/psychometric-curve.png" height="500">
+<img src="../behaviour-04/psychometric-curve.png" height="500">
 
 The plotting part is actually very easy, but fitting the smooth curve through the points is quite tricky. To get to that point, we need to look at a couple of small extras. First though, you can grab a version of the summary data I have provided to get stuck in:
 
@@ -151,7 +151,7 @@ The plotting part is actually very easy, but fitting the smooth curve through th
 
 ## Some more details and a worked solution
 
-Please take a bit of time to read more details and look at [a worked solution to this](solution-README.md) as the next session will be the start of a different project.
+Please take a bit of time to read more details and look at [a worked solution to this](solution-README.md).
 
 ## Helpful commands
 
