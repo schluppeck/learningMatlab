@@ -56,7 +56,7 @@ bestP = lsqcurvefit(@myNormcdf,   [0, 1],   xData, yData)
 
 %% now that we have the best parameters...
 % 
-%  ... we can use the best parameters (bestP) to 
+% we can use the best parameters (bestP) to 
 % make a nice fitted curve. Because we have the parameters,
 % we can calculate the y values for any x values have want
 % (not just where the _data_ were collected)
@@ -132,23 +132,32 @@ title('Error')
 %% error surface
 %
 [M,S] = meshgrid(-4:0.2:4, 0.1:0.1:3);
-E = arrayfun(@(x,y) sqerror([x,y], xData, yData), M, S)
+% provide the function with inputs, element-wise from M and S.
+% |arrayfun()| let's you do that, but it's a bit advanced, so maybe 
+% don't worry about this. The important point here is that we calculate 
+% an error |E| for each combination of MU and SIGMA values.
 
-%% 2d plot
+E = arrayfun(@(x,y) sqerror([x,y], xData, yData), M, S);
+
+%% Make a 2d plot
+
 figure
 pcolor(M, S, E)
-% ginput(1)
-% contour(M, S, E,25)
+% ginput(1)  % you can use this to query by clicking the mouse
 
-% find the min value... one long vector.
+% find the min value... use one long vector so you get the linear index.
 [mval, mindx] = min(E(:));
 
+% the values of M, S and E at that point
 Mmin = M(mindx);
 Smin = S(mindx);
 Emin = E(mindx);
 
-vline(Mmin, 'r')
-hline(Smin, 'r')
+% som helper lines
+vline(Mmin, 'r');
+hline(Smin, 'r');
+
+% and some labels
 xlabel('MU')
 ylabel('SIGMA')
 
@@ -157,6 +166,10 @@ colorbar()
 plot(Mmin, Smin, 'ro', 'Markerfacecolor', 'r')
 
 %% Make a surface plot
+%
+% To get a more fancy-looking (but not necessarily easier to understand) 3d
+% plot, you can do the following.
+
 figure
 
 surfc(M, S, E)
@@ -169,6 +182,8 @@ xlabel('Mu');
 ylabel('Sigma');
 zlabel('Error');
 
+% change the following figure properties to make it look nice
+% when you interact with the plot
 axis vis3d
 camproj('perspective')
 
