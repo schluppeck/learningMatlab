@@ -24,14 +24,14 @@ q/Esc quit
 ==============================================
 ```
 
-##Data
+## Data
 
 The image to be displayed in stored in a MAT file called ``anatomy.mat`` in the current folder The MAT file contains two variables:
 
 - one called ``array``, a 3d-array containing the image volume;
 - another variable called ``hdr``, a ``struct`` with many fields, containing information about the stored image, including the filename of the original image, image dimensions, voxel sizes, etc.
 
-![Picture of image viewer](https://github.com/schluppeck/c84nim/blob/master/imaging-01/figure_sliceview.png)
+![Picture of image viewer](figure_sliceview.png)
 
 ##Helpful commands / concepts
 
@@ -45,7 +45,7 @@ The following information should help tackle the problem:
 - ``imagesc``, ``min/max`` (or ``prctile``), ``colorbar``, ``squeeze``
 
 
-##Future features (things to think about)
+## Future features (things to think about)
 
 - if the image is not a neat cube (but, say, has dimensions 176x256x256, what's a potential problem of switching orientations?)
 - specifying a data file name as an input argument
