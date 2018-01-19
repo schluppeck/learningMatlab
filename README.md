@@ -39,14 +39,14 @@ The structure of the course was designed to have 3 chunks. Schluppeck has been t
 | 6    | [behaviour-02](behaviour-02) | Making a stimulus and putting it up on the screen                                       |
 | 7    | [behaviour-03](behaviour-03) | Getting responses from the subject & fine-tuning                                        |
 | 8    | [behaviour-04](behaviour-04) | Analyzing the behavioural data, fitting and plotting                                    |
-| 9    | [behaviour-05](behaviour-05) |                                                                                         |
-| 10   | [behaviour-06](behaviour-06) |                                                                                         |
+| 9    |  |                                                                                         |
+| 10   |  |                                                                                         |
 | 5a   | [imaging-01](imaging-01)     | Building / fixing up a simple image viewer                                              |
 | 6a   | [imaging-02](imaging-02)     | A function that constructs a simple design matrix                                       |
 | 7a   | [imaging-03](imaging-03)     | Hands-on linear regression (using a sample timecourse)                                  |
 | 8a   | [imaging-04](imaging-04)     | Doing regression *stats*, displaying                                                    |
-| 9a   | [imaging-05](imaging-05)     |                                                                                         |
-| 10a  | [imaging-06](imaging-06)     |                                                                                         |
+| 9a   |      |                                                                                         |
+| 10a  |      |                                                                                         |
 
 ## How to get these materials
 
