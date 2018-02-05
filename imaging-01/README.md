@@ -33,7 +33,7 @@ The image to be displayed in stored in a MAT file called ``anatomy.mat`` in the 
 
 ![Picture of image viewer](figure_sliceview.png)
 
-##Helpful commands / concepts
+## Helpful commands / concepts
 
 The following information should help tackle the problem:
 
