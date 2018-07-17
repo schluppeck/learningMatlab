@@ -24,10 +24,10 @@ Feel free to use the code. I accept donations in the form of freshly roasted cof
 The structure of the course was designed to have 3 chunks. Schluppeck has been tinkering with the course more recently.
 
 1. an introduction to the basic ideas (variables, functions, control flow) - running over **the first 4 weeks**. Check out the material in the **aToZ-intro** folder and the associated [readme file here.](aToZ-intro)
-2. a hands-on group project, designing and programming up a simple, but working, behavioural experiment, **6 weeks**. A brief overview of this part of the course is in the [in the behaviour section.](behaviour-01)
-3. an **alternative** project, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), **6 weeks**. Details on the imaging-related units is outlined in [here.](imaging-01)
+2. **Timetable A**. A hands-on group project, designing and programming up a simple, but working, behavioural experiment, **6 weeks**. A brief overview of this part of the course is in the [in the behaviour section.](behaviour-01)
+3. **Timetable B**. An **alternative** project, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), **6 weeks**. Details on the imaging-related units is outlined in [here.](imaging-01)
 
-## Possible timetable
+## Timetable A (around a stimulus presentation program)
 
 | Week | Unit                         | Topic                                                                                   |
 |:-----|:-----------------------------|:----------------------------------------------------------------------------------------|
@@ -39,14 +39,20 @@ The structure of the course was designed to have 3 chunks. Schluppeck has been t
 | 6    | [behaviour-02](behaviour-02) | Making a stimulus and putting it up on the screen                                       |
 | 7    | [behaviour-03](behaviour-03) | Getting responses from the subject & fine-tuning                                        |
 | 8    | [behaviour-04](behaviour-04) | Analyzing the behavioural data, fitting and plotting                                    |
-| 9    |  |                                                                                         |
-| 10   |  |                                                                                         |
-| 5a   | [imaging-01](imaging-01)     | Building / fixing up a simple image viewer                                              |
-| 6a   | [imaging-02](imaging-02)     | A function that constructs a simple design matrix                                       |
-| 7a   | [imaging-03](imaging-03)     | Hands-on linear regression (using a sample timecourse)                                  |
-| 8a   | [imaging-04](imaging-04)     | Doing regression *stats*, displaying                                                    |
-| 9a   |      |                                                                                         |
-| 10a  |      |                                                                                         |
+
+## Timetable B (around a stimulus presentation program)
+
+| Week | Unit                     | Topic                                                     |
+|:-----|:-------------------------|:----------------------------------------------------------|
+| 1    | [aToZ-intro](aToZ-intro) | What is Matlab, the environment, variables, indexing, ... |
+| 2    | [aToZ-intro](aToZ-intro) | Types of data: numeric, logical, text, etc.               |
+| 3    | [aToZ-intro](aToZ-intro) | Indexing, looping, branching, functions, ...              |
+| 4    | [aToZ-intro](aToZ-intro) | Understanding someone else's code                         |
+| 5a   | [imaging-01](imaging-01) | Building / fixing up a simple image viewer                |
+| 6a   | [imaging-02](imaging-02) | A function that constructs a simple design matrix         |
+| 7a   | [imaging-03](imaging-03) | Hands-on linear regression (using a sample timecourse)    |
+| 8a   | [imaging-04](imaging-04) | Doing regression *stats*, displaying                      |
+
 
 ## How to get these materials
 
