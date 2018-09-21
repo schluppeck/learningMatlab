@@ -24,10 +24,26 @@ Feel free to use the code. I accept donations in the form of freshly roasted cof
 The structure of the course was designed to have 3 chunks. Schluppeck has been tinkering with the course more recently.
 
 1. an introduction to the basic ideas (variables, functions, control flow) - running over **the first 4 weeks**. Check out the material in the **aToZ-intro** folder and the associated [readme file here.](aToZ-intro)
-2. **Timetable A**. A hands-on group project, designing and programming up a simple, but working, behavioural experiment, **6 weeks**. A brief overview of this part of the course is in the [in the behaviour section.](behaviour-01)
-3. **Timetable B**. An **alternative** project, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), **6 weeks**. Details on the imaging-related units is outlined in [here.](imaging-01)
+2. **Timetable A**. An **alternative** project, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), **6 weeks**. Details on the imaging-related units is outlined in [here.](imaging-01)
+3. **Timetable B**. A hands-on group project, designing and programming up a simple, but working, behavioural experiment, **6 weeks**. A brief overview of this part of the course is in the [in the behaviour section.](behaviour-01)
 
-## Timetable A (around a stimulus presentation program)
+
+## Timetable A (around a looking at images, 3d data, ...)
+
+| Week | Unit                     | Topic                                                     |
+|:---- |:------------------------ |:--------------------------------------------------------- |
+| 1    | [aToZ-intro](aToZ-intro) | What is Matlab, the environment, variables, indexing, ... |
+| 2    | [aToZ-intro](aToZ-intro) | Types of data: numeric, logical, text, etc.               |
+| 3    | [aToZ-intro](aToZ-intro) | Indexing, looping, branching, functions, ...              |
+| 4    | [aToZ-intro](aToZ-intro) | Understanding someone else's code                         |
+| 5a   | [imaging-01](imaging-00) | What are images? How to display them                      |
+| 6a   | [imaging-01](imaging-01) | Building / fixing up a simple image viewer                |
+| 7a   | [imaging-02](imaging-02) | A function that constructs a simple design matrix         |
+| 8a   | [imaging-03](imaging-03) | Hands-on linear regression (using a sample timecourse)    |
+| 9a   | [imaging-04](imaging-04) | Doing regression *stats*, displaying                      |
+
+
+## Timetable B (around a stimulus presentation program)
 
 | Week | Unit                         | Topic                                                                                   |
 |:-----|:-----------------------------|:----------------------------------------------------------------------------------------|
@@ -35,23 +51,10 @@ The structure of the course was designed to have 3 chunks. Schluppeck has been t
 | 2    | [aToZ-intro](aToZ-intro)     | Types of data: numeric, logical, text, etc.                                             |
 | 3    | [aToZ-intro](aToZ-intro)     | Indexing, looping, branching, functions, ...                                            |
 | 4    | [aToZ-intro](aToZ-intro)     | Understanding someone else's code                                                       |
-| 5    | [behaviour-01](behaviour-01) | Overview: building a simple psychophysical experiment; info from experimenter & subject |
-| 6    | [behaviour-02](behaviour-02) | Making a stimulus and putting it up on the screen                                       |
-| 7    | [behaviour-03](behaviour-03) | Getting responses from the subject & fine-tuning                                        |
-| 8    | [behaviour-04](behaviour-04) | Analyzing the behavioural data, fitting and plotting                                    |
-
-## Timetable B (around a stimulus presentation program)
-
-| Week | Unit                     | Topic                                                     |
-|:-----|:-------------------------|:----------------------------------------------------------|
-| 1    | [aToZ-intro](aToZ-intro) | What is Matlab, the environment, variables, indexing, ... |
-| 2    | [aToZ-intro](aToZ-intro) | Types of data: numeric, logical, text, etc.               |
-| 3    | [aToZ-intro](aToZ-intro) | Indexing, looping, branching, functions, ...              |
-| 4    | [aToZ-intro](aToZ-intro) | Understanding someone else's code                         |
-| 5a   | [imaging-01](imaging-01) | Building / fixing up a simple image viewer                |
-| 6a   | [imaging-02](imaging-02) | A function that constructs a simple design matrix         |
-| 7a   | [imaging-03](imaging-03) | Hands-on linear regression (using a sample timecourse)    |
-| 8a   | [imaging-04](imaging-04) | Doing regression *stats*, displaying                      |
+| 5b    | [behaviour-01](behaviour-01) | Overview: building a simple psychophysical experiment; info from experimenter & subject |
+| 6b    | [behaviour-02](behaviour-02) | Making a stimulus and putting it up on the screen                                       |
+| 7b    | [behaviour-03](behaviour-03) | Getting responses from the subject & fine-tuning                                        |
+| 8b    | [behaviour-04](behaviour-04) | Analyzing the behavioural data, fitting and plotting                                    |
 
 
 ## How to get these materials
@@ -62,7 +65,7 @@ Assuming you are on a Mac: open up a ``Terminal`` (double-click /Applications/Ut
 # if you don't already have one: create a ``matlab`` directory in your home space (``~``), then change directory to it:
 cd ~
 mkdir matlab
-cd matlab  
+cd matlab
 # get MGL (for the behavioral project)
 git clone https://github.com/justingardner/mgl.git
 # get these tutorials

@@ -21,7 +21,7 @@ plot(x,y,'color', colors(1,:)); % first in the "family"
 ```
 
 <details><summary>Hint 1 - calculate y in loop</summary><p>
-  
+
 Step one in solving this problem could be to figure out how to calculate the ``y`` values in a loop (and worry about the plotting later).
 
 <pre>
@@ -42,7 +42,7 @@ But ``y`` gets over-written each time we go through the loop. That's fine for he
 </p></details>
 
 <details><summary>Hint 2 - plot on top of other stuff</summary><p>
-  
+
 Step two in solving this problem could be to figure out how to plot one thing on top of another...
 
 <pre>
@@ -65,7 +65,7 @@ end
 
 <details>
 <summary>Hint 3 - pick different colors</summary><p>
-  
+
 Step 3 is to pick a different colour each time...
 
 <pre>
