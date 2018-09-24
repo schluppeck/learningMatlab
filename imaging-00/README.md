@@ -13,18 +13,33 @@ understand ...
 
 ## How are images represented?
 
-You can think of images as a table of numbers.
+You can think of images as a table of numbers. Consider this 3-by-4 example ``A``.
 
 ```Matlab
-A = [1,2,3,4;
-     2,5,7,8;
-     10,1,0,1]
+A = [10,20,30,4;
+     22,51,72,89;
+     4,100,0,9]
 ```
 
-For larger images (tables with many rows and columns), looking at printed numbers becomes unwieldy. So we can 
+For larger images (tables with many rows and columns), looking at printed numbers becomes unwieldy. A much better way show this information is to show the numbers as little squares, also called ("pixels" for picture elements).
 
+The following two lines of code
 
-- how *images* are represented in matlab
+```Matlab
+figure   % for a new window
+image(A) % display A as an image
+```
+
+yield an image representation of the data in which each number is now represented as a colored pixel:
+
+![small matrix image](image-of-small-matrix.png)
+
+A few things to note:
+
+0. the origin (1st row, 1st column of data) is shown in top left pixel. Compare this to how you think of a scatter plot
+1. by default numbers are mapped to colors
+2. the table that defines those colors is called a **colormap**.
+
 
 ## How to display images, inspect them
 
