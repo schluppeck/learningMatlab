@@ -31,12 +31,12 @@ The structure of the course was designed to have 3 chunks. Schluppeck has been t
 ## Timetable A (around a looking at images, 3d data, ...)
 
 | Week | Unit                     | Topic                                                     |
-|:---- |:------------------------ |:--------------------------------------------------------- |
+|:-----|:-------------------------|:----------------------------------------------------------|
 | 1    | [aToZ-intro](aToZ-intro) | What is Matlab, the environment, variables, indexing, ... |
 | 2    | [aToZ-intro](aToZ-intro) | Types of data: numeric, logical, text, etc.               |
 | 3    | [aToZ-intro](aToZ-intro) | Indexing, looping, branching, functions, ...              |
 | 4    | [aToZ-intro](aToZ-intro) | Understanding someone else's code                         |
-| 5a   | [imaging-01](imaging-00) | What are images? How to display them                      |
+| 5a   | [imaging-00](imaging-00) | What are images? How to display them                      |
 | 6a   | [imaging-01](imaging-01) | Building / fixing up a simple image viewer                |
 | 7a   | [imaging-02](imaging-02) | A function that constructs a simple design matrix         |
 | 8a   | [imaging-03](imaging-03) | Hands-on linear regression (using a sample timecourse)    |
@@ -51,10 +51,10 @@ The structure of the course was designed to have 3 chunks. Schluppeck has been t
 | 2    | [aToZ-intro](aToZ-intro)     | Types of data: numeric, logical, text, etc.                                             |
 | 3    | [aToZ-intro](aToZ-intro)     | Indexing, looping, branching, functions, ...                                            |
 | 4    | [aToZ-intro](aToZ-intro)     | Understanding someone else's code                                                       |
-| 5b    | [behaviour-01](behaviour-01) | Overview: building a simple psychophysical experiment; info from experimenter & subject |
-| 6b    | [behaviour-02](behaviour-02) | Making a stimulus and putting it up on the screen                                       |
-| 7b    | [behaviour-03](behaviour-03) | Getting responses from the subject & fine-tuning                                        |
-| 8b    | [behaviour-04](behaviour-04) | Analyzing the behavioural data, fitting and plotting                                    |
+| 5b   | [behaviour-01](behaviour-01) | Overview: building a simple psychophysical experiment; info from experimenter & subject |
+| 6b   | [behaviour-02](behaviour-02) | Making a stimulus and putting it up on the screen                                       |
+| 7b   | [behaviour-03](behaviour-03) | Getting responses from the subject & fine-tuning                                        |
+| 8b   | [behaviour-04](behaviour-04) | Analyzing the behavioural data, fitting and plotting                                    |
 
 
 ## How to get these materials

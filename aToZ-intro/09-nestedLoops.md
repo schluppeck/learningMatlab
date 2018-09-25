@@ -113,4 +113,4 @@ Use <code>if/else</code> to check the number of dimensions; the command <code>nd
 
 # Next
 
-[Processing images](10-imageProcessing.md) - loading and modifying images.
+[Processing images](imaging-00/README.md) - loading and modifying images.

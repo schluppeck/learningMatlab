@@ -15,8 +15,7 @@ In the command prompt, try to work out the following:
 5.	4 to the power of 3
 6.	64 to the power of one third
 7.	**(bonus)** the square root of 81 (not using the ``sqrt()`` function?!)
-8.	**(bonus)** √-1 (not using the ``sqrt()`` function?!)
-9.	**(bonus)** i^1,i^2,i^3,i^4, where i=√-1
+
 
 And look at the following exercises briefly to make some vectors / list of numbers.
 
