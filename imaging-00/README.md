@@ -43,12 +43,35 @@ A few things to note:
 
 ![small matrix image](image-of-small-matrix-annotated.png)
 
+The following code displays the same matrix ``A`` as an image, then changes the colormap to ``gray()`` and also displays the colorbar with the correspondence between values and colours.
 
 ```Matlab
 figure   % for a new window
 image(A) % display A as an image
 colormap( gray() )
 colorbar() % show how values are mapped to colours
+```
+
+![small matrix image, colourmap](image-of-small-matrix-colorbar.png)
+
+### Questions
+
+Try to answer the following (and run the appropriate snippets of code). What does it mean? Do you understand what happened? If not, try describe in words what you see...
+
+1. What happens when you run ``gray()`` on the command line.
+2. Run ``g = gray()`` - this assigns something (what?) to the variable ``g``. How many rows and columns does ``g`` have?
+3. What happens if you call the following:
+```Matlab
+% make a new figure
+figure
+% call image() without an input argument
+image()
+```
+4. With the matrix ``A`` from above, try out:
+```Matlab
+figure(1)
+imagesc(A), axis('image')
+title()
 ```
 
 
