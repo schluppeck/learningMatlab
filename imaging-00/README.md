@@ -64,24 +64,89 @@ Try to answer the following (and run the appropriate snippets of code). What doe
 ```Matlab
 % make a new figure
 figure
-% call image() without an input argument
-image()
+% call image() or imagesc() without an input argument
+imagesc()
+% also try to add
+colormap(gray())
+axis('ij')
+axis('image')
 ```
+
+![without nput argument](image-without-input-argument.png)
+
 4. With the matrix ``A`` from above, try out:
 ```Matlab
 figure(1)
-imagesc(A), axis('image')
-title()
+imagesc(A)
+axis('image')
+title('Where is 0/0?')
 ```
+and
+```matlab
+figure(2)
+imagesc(A)
+axis('ij')
+axis('image')
+title('Where is 0/0 now?')
+```
+Take note of the **origin** in both cases. So what does the ``axis('image')`` do and what's the idea behind ``axis('ij')`` and its cousin ``axis('xy')``?
 
+## Loading and saving images
 
-## How to display images, inspect them
+### Loading
+
+For loading standard kinds of images (from digital cameras, webpages, etc.) the standard ``imread`` function is your friend. ``doc imread`` will show you all the options... on cool thing is that you can load images directly from the web:
+
+The following image is located at: https://farm8.staticflickr.com/7038/6803949028_2469f89efc_z.jpg
+
+![blueberry in water on flickr](https://farm8.staticflickr.com/7038/6803949028_2469f89efc_z.jpg)
+
 
 ```Matlab
+% read it straight in
+blueberry = imread('https://farm8.staticflickr.com/7038/6803949028_2469f89efc_z.jpg');
+figure()
+imshow(blueberry)
+```
 
+Try this out with an image you have locally on your machine. **Maybe via PhotoBooth** on the Mac, or downloaded into your ``/Documents/MATLAB/`` folder?
+
+```Matlab
+% read it straight in
+someOtherImage = imread('blabla.jpg');
+figure()
+imshow(someOtherImage)
+```
+
+### Saving, writing images:
+
+If you have some data in Matlab and you want to save it out as an image that you can use ``imwrite``, but you usually also have to provide the ``colormap`` to go along with it.
+
+```MATLAB
+randomImage = randi(64, [420, 130]);  % random integers [1...64] in a table
+imwrite(randomImage, jet(),  'test_save_image.png')
+% try out the next line and observe what happens... (mac only!)
+!open test_save_image.png
+```
+
+Lots of other formats are supported. Check the documentation for specifics.
+
+### Getting information about images
+
+Also try the following with the image you have just created -- or any other images you want to try out.
+
+
+```MATLAB
+imageinfo('test_save_image.png')
 ```
 
 
-- how to display them, inspect different aspects
-- the idea of *intensity* images, colormaps
-- that there is a wealth of functionality available in the ``Image Processing Toolbox``
+
+## Look at what's possible
+
+There is a wealth of functionality available in the ``Image Processing Toolbox``. Toolboxes are add-ons to basic Matlab and the university (or more generally, the customer) needs to pay for this. But most labs will have access to the **Image processing** and **Statistics** toolboxes, and many freely available toolboxes have been developed over the years.
+
+```Matlab
+% to get an overview of the Image Processing toolbox:
+doc images
+```

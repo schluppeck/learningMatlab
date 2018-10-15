@@ -1,6 +1,17 @@
 ## Aim
 
-In this unit we write the function ``makeDesignMatrix()`` that will help us do linear regression in due course. The idea here is to specify the on/off timing (say, for a visual stimulus in an fMRI experiment)
+The learning objectives for this unit are:
+
+- become more comfortable with manipulating 3d and 4d data ("multidimensional arrays")
+- solidify our understanding of what it means for something to be 3 (o 4) dimensinoal
+- get practice writing writing ``function``s in matlab
+- get comfortable with ``function``s that have 1 or more input arguments, and 1 or more output arguments
+
+##
+
+
+## Also...
+Toward the end of this unit, we need to construct a function ``makeDesignMatrix()`` that will help us do linear regression in due course. The idea here is to specify the on/off timing (say, for a visual stimulus in an fMRI experiment)
 
 - 2 obligatory input arguments: ``blockOne, n``
 - 2 optional input argument: ``TR, hrf``

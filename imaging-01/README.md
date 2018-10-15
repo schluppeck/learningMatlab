@@ -1,6 +1,6 @@
 # imaging-01
 
-In this unit we complete a simple interactive viewer program for displaying 3d (or even 4d) imaging data. Matlab has powerful functions / toolboxes to make this quite straightforward and I hope I'll be able to show you that in less than 50-100 lines of code you can build a pretty cool little utility. Building the whole thing from scratch takes a bit more than a couple of sessions, so the aim here is to concentrate on a couple of key functions
+In this unit we *complete* a simple interactive viewer program for displaying 3d (or even 4d) imaging data. Matlab has powerful functions / toolboxes to make this quite straightforward and I hope I'll be able to show you that in less than 50-100 lines of code you can build a pretty cool little utility. Building the whole thing from scratch takes a bit more than a couple of sessions, **so the aim here is to concentrate on a couple of key functions**.
 
 ## Specification for image viewer
 
@@ -70,4 +70,4 @@ What are the things to worry about / check to make sure this function is robust 
 ## Notes
 
 - check the ``interact.m`` program to see how we can attach interactivity to the matlab figure window
-- ``sliceview.m`` is the nearly complete program... all it's missing is the functionality of ``returnSlice()`` - you can either provide this as a separate file (the way you are probably used to) or inside the ``sliceview.m`` file itself.     
+- ``sliceview.m`` is the nearly complete program... all it's missing is the functionality of ``returnSlice()`` - you can either provide this as a separate file (the way you are probably used to) or inside the ``sliceview.m`` file itself.
