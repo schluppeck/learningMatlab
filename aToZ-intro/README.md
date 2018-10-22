@@ -23,4 +23,3 @@ To make sure you are ready for the mini-projects (1) on building a simple *behav
 7. [Test your knowledge](07-debugTheCode.md) - understand an existing piece of code and fix it up (debug + refactor)
 8. [Application: loop over multiple plots](08-loopOverPlots.md) - plot a family of curves (with nice colors)
 9. [Application: nested loops to construct filenames](09-nestedLoops.md) - make strings / text that follows a certain pattern.
-10. [Application: image processing](10-imageProcessing.md) - load images, blur them, etc. with image processing toolbox
