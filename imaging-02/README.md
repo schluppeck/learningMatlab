@@ -7,9 +7,6 @@ The learning objectives for this unit are:
 - get practice writing writing ``function``s in matlab
 - get comfortable with ``function``s that have 1 or more input arguments, and 1 or more output arguments
 
-##
-
-
 ## Also...
 Toward the end of this unit, we need to construct a function ``makeDesignMatrix()`` that will help us do linear regression in due course. The idea here is to specify the on/off timing (say, for a visual stimulus in an fMRI experiment)
 
