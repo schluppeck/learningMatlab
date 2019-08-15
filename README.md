@@ -1,8 +1,13 @@
 # learningMatlab
 
+
+<img src="learningMatlab-splash.png" width="80%">
+
+
+
 ## What's this?
 
-Materials and exercises from the *Introduction to Matlab Programming* course.
+Materials and exercises from the *Introduction to Matlab Programming* course which forms part of our [*MSc Cognitive Neuroscience*](https://www.nottingham.ac.uk/pgstudy/courses/psychology/cognitive-neuroscience-msc.aspx).
 
 For **viewing** the materials use: <a href="http://schluppeck.github.io/learningMatlab/">
 http://schluppeck.github.io/learningMatlab/</a>
@@ -13,7 +18,7 @@ For inspecting the code and details: <a href="https://github.com/schluppeck/lear
 
 The first place to check out is the [aToZ-intro](aToZ-intro)
 
-Find PDF materials in one place in the [matlab primer](aToZ-intro/c84nim-exercises.pdf)
+Find PDF materials in one place in the [matlab primer [PDF]](aToZ-intro/c84nim-exercises.pdf)
 
 ## Who is it for? What are the aims?
 
@@ -85,6 +90,8 @@ To make sure you have any updates to this material, open a Terminal, change dire
 ## Notes
 
 - In the 2015/2016 iteration of the course, I modified the hands-on project for building a simple behavioural task to use **mgl** (https://github.com/justingardner/mgl). Although this requires teaching a couple more details on how stimuli are being displayed by the OpenGL machinery and it's not pure Matlab, it's (a) more realistic and (b) makes displaying different kinds of stimuli, obtaining keyboard responses, etc. much more fun and doable.
+- In the 2017 iteration, students built a psychophysical experiment (slightly different task, but similar in spirit)
+- In 2018, the assignment for the course was complete and extend an analysis script for fMRI data by writing some helper functions. Students were also using ``pusblish()`` to explore documentation and mixing code with report writing.
 
 ## Contact
 
