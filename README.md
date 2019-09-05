@@ -19,7 +19,7 @@ For inspecting the code and details: <a href="https://github.com/schluppeck/lear
 
 - There is a self-directed **Matlab onramp** course that we will refer to during the course. This includes some short videos and interactive lessons, which we will use to [flip the classroom](https://en.wikipedia.org/wiki/Flipped_classroom).
 
-- :ballot_box_with_check: **Before the first lab-class, you should have a go at sections 1 to 3** of [this onramp course](https://matlabacademy.mathworks.com/R2019a/portal.html?course=gettingstarted). The sections should't take too long complete.
+- :ballot_box_with_check: **We'll ask you to complete** [this onramp course](https://matlabacademy.mathworks.com/R2019a/portal.html?course=gettingstarted). The sections should't take too long complete and there are lots of hints to guide you through the material at your own pace.
 <img src="onramp.png" width="50%" alt="screenshot of matlab onramp" caption="Screenshot of onramp course">
 
 ## Get me started on the material here!
