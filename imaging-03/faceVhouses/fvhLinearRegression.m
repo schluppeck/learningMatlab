@@ -123,3 +123,15 @@ plot(t, timecourse1, 'r', t, modelfit , 'k')
 xlabel('Time (TRs)');
 ylabel('fMRI Response')
 legend('data', 'fit')
+
+
+%% . plot time courses
+
+
+figure
+plot(t, timecourse1, 'r', 'linewidth',2);
+hold on
+plot(t, timecourse2, 'k', 'linewidth',2);
+xlabel('Time (TRs)');
+ylabel('fMRI Response')
+legend('response at [18, 14, 4]', 'response at [40, 19, 3]')
