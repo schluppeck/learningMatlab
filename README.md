@@ -45,7 +45,7 @@ Feel free to use the code. If you feel it's particularly helpful to you... I acc
 The structure of the course was designed to have 3 chunks. Schluppeck has been tinkering with the course more recently.
 
 1. an introduction to the basic ideas (variables, functions, control flow) - running over **the first 4 weeks**. Check out the material in the **aToZ-intro** folder and the associated [readme file here.](aToZ-intro)
-2. **Timetable A**. An **alternative** project, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), **6 weeks**. Details on the imaging-related units is outlined in [here.](imaging-01)
+2. **Timetable A**. A project based around **images + data**, building some basic utilities / functions for looking at neuroimaging data and performing linear regression (GLM), **6 weeks**. Details on the imaging-related units is outlined in [here.](imaging-01)
 3. **Timetable B**. A hands-on group project, designing and programming up a simple, but working, behavioural experiment, **6 weeks**. A brief overview of this part of the course is in the [in the behaviour section.](behaviour-01)
 
 
