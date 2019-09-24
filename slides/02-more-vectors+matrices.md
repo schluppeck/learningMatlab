@@ -23,8 +23,8 @@ Accessing certain parts of a vector/matrix: **key idea**
 Use **indexing**. If you want to get hold of parts of a matrix::
 
 ```matlab
-a = [1, 2, 3;
- 	 4, 5, 6]
+a = [1, 2, 3,
+     4, 5, 6]
 ```
 specify **row** and **column**::
 

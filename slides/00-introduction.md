@@ -36,17 +36,17 @@ Anthony [Kuan] Beh (TA)
 
 ---
 
-| Week | Unit                     | Topic                                                     |
-|:-----|:-------------------------|:----------------------------------------------------------|
-| 1    | [aToZ-intro](aToZ-intro) | What is Matlab, the environment, variables, indexing, ... |
-| 2    | [aToZ-intro](aToZ-intro) | Types of data: numeric, logical, text, etc.               |
-| 3    | [aToZ-intro](aToZ-intro) | Indexing, looping, branching, functions, ...              |
-| 4    | [aToZ-intro](aToZ-intro) | Understanding someone else's code                         |
-| 5a   | [imaging-00](imaging-00) | What are images? How to display them                      |
-| 6a   | [imaging-01](imaging-01) | Building / fixing up a simple image viewer                |
-| 7a   | [imaging-02](imaging-02) | A function that constructs a simple design matrix         |
-| 8a   | [imaging-03](imaging-03) | Hands-on linear regression (using a sample timecourse)    |
-| 9a   | [imaging-04](imaging-04) | Doing regression *stats*, displaying                      |
+| Week                   | Topic                                |
+|:-----:----------------------------------------------------------|
+| 1    |  What is Matlab, the environment, variables, indexing, ... |
+| 2    |  Types of data: numeric, logical, text, etc.               |
+| 3    |  Indexing, looping, branching, functions, ...              |
+| 4    |  Understanding someone else's code                         |
+| 5   |  What are images? How to display them                      |
+| 6   |  Building / fixing up a simple image viewer                |
+| 7   | A function that constructs a simple design matrix         |
+| 8   |  Hands-on linear regression (using a sample timecourse)    |
+| 9   |  | Doing regression *stats*, displaying                      |
 
 ---
 
@@ -60,6 +60,7 @@ Anthony [Kuan] Beh (TA)
 [A description of a previous assignment](2018-assignment.pdf)
 
 ---
+
 ## Submission details
 
 - submission via moodle page
