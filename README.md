@@ -28,6 +28,13 @@ For inspecting the code and details: <a href="https://github.com/schluppeck/lear
 
 2. Find PDF materials in one place in the [matlab primer [PDF]](aToZ-intro/c84nim-exercises.pdf)
 
+3. Lecture slides for sessions 1-4:
+  - <a href="slides/00-introduction.html" target="_blank">00-introduction.html</a>
+  - <a href="slides/01-getting-started.html" target="_blank">01-getting-started.html</a>
+  - <a href="slides/02-more-vectors+matrices.html" target="_blank">02-more-vectors+matrices.html</a>
+  - <a href="slides/03-indexing-looping-branching.html" target="_blank">03-indexing-looping-branching.html</a>
+
+
 ## Who is it for? What are the aims?
 
 The main aims is to help the students to get to grips with the basic ideas of computer programming and, more specifically, the use of Matlab.  The course materials started out for a graduate course for psychologists and neuroscientists.
