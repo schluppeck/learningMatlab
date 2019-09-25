@@ -36,17 +36,22 @@ Anthony [Kuan] Beh (TA)
 
 ---
 
-| Week                   | Topic                                |
-|:-----:----------------------------------------------------------|
-| 1    |  What is Matlab, the environment, variables, indexing, ... |
-| 2    |  Types of data: numeric, logical, text, etc.               |
-| 3    |  Indexing, looping, branching, functions, ...              |
-| 4    |  Understanding someone else's code                         |
-| 5   |  What are images? How to display them                      |
-| 6   |  Building / fixing up a simple image viewer                |
-| 7   | A function that constructs a simple design matrix         |
-| 8   |  Hands-on linear regression (using a sample timecourse)    |
-| 9   |  | Doing regression *stats*, displaying                      |
+<small> 
+<span style="font-family:IBM Plex Sans;color:navy">
+
+| Week | Topic                                                     |
+|:----:|:----------------------------------------------------------|
+|  1   | What is Matlab, the environment, variables, indexing, ... |
+|  2   | Types of data: numeric, logical, text, etc.               |
+|  3   | Indexing, looping, branching, functions, ...              |
+|  4   | Understanding someone else's code                         |
+|  5   | What are images? How to display them                      |
+|  6   | Building / fixing up a simple image viewer                |
+|  7   | A function that constructs a simple design matrix         |
+|  8   | Hands-on linear regression (using a sample timecourse)    |
+|  9   | Doing regression *stats*, displaying                      |
+</span>
+</small>
 
 ---
 
