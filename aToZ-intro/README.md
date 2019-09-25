@@ -12,7 +12,7 @@ You can refer to a short [matlab primer](c84nim-exercises.pdf) that will walk yo
 
 ## Exercises
 
-To make sure you are ready for the mini-projects (1) on building a simple *behavioural* experiment (or 2) related to the neuroimaging analysis, I suggest you walk through the following sets of exercises on the Matlab command prompt. **It's important that you _think_ about what should be happening before you hit the return key to execute the code**. You could even put all the lines into a file in the Matlab editor window and write comments to go along:
+To make sure you are ready for the mini-project related to the neuroimaging analysis, I suggest you walk through the following sets of exercises on the Matlab command prompt. **It's important that you _think_ about what should be happening before you hit the return key to execute the code**. You could even put all the lines into a file in the Matlab editor window and write comments to go along:
 
 1. [Doing basic maths on the command prompt](01-firstSteps.md)
 2. [Simple commands](02-simpleCommands.md) for getting the mean, std, etc.
