@@ -23,7 +23,7 @@ Users should be able to use the function like this
 
 ```matlab
 c = [24,25,10]; for example
-tc = returnTimeCourse(data, c);
+tc = returnTimecourse(data, c);
 plot(tc)
 ```
 - What are the things that you might want to guard against when writing your code? 
