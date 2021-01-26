@@ -49,9 +49,6 @@ The syllabus is for a 10 week (10 x 2h) lab class, assuming very little computer
 
 Feel free to use the code. If you feel it's particularly helpful to you... I accept donations in the form of freshly roasted coffee beans.
 
-<script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="schluppeck" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#ff813f" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
-
-
 The course has two chunks. (Schluppeck has been tinkering with the course more recently and we've also done [a different project around stimulus presentation](README_B.md).
 
 1. an introduction to the basic ideas (variables, functions, control flow) - running over **the first 4 weeks**. Check out the material in the **aToZ-intro** folder and the associated [readme file here.](aToZ-intro)
@@ -116,6 +113,11 @@ To make sure you have any updates to this material, open a Terminal, change dire
 
 - In 2018, the assignment for the course was complete and extend an analysis script for fMRI data by writing some helper functions. Students were also using ``pusblish()`` to explore documentation and mixing code with report writing.
 
+<script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="schluppeck" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#ff813f" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
 ## Contact
 
 <a href="https://twitter.com/schluppeck">https://twitter.com/schluppeck</a>
+
+
