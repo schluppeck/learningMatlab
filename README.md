@@ -3,6 +3,7 @@
 
 <img src="learningMatlab-splash.png" width="80%">
 
+[![View learningMatlab on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/108189-learningmatlab)
 
 ## What's this?
 
