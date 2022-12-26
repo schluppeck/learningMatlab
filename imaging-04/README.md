@@ -25,9 +25,9 @@ Next we will work on a function ``returnStats()`` that will allow us to do some 
 
 ## Some equations:
 
-![Slide of equations](significance.001.png)
+![Slide of equations](./significance.001.png)
 
-![Model fit](r2-values-009.png)
+![Model fit](./r2-values-009.png)
 
 
 ## Notes:
