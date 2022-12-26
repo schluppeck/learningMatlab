@@ -6,7 +6,7 @@ In this unit we want to work through an example of linear regression, in particu
 
 First, I will walk/talk you through an example of how to load in some data, get a timecourse from a single voxel at a time, the designMatrix and then show the *linear regression* bit in action.
 
-[go to subfolder](facesVhouses/README.md) and you can also have a look at the [PDF file I produced](facesVhouses/html/facesVhouses.pdf) from the analysis script using the ``publish()`` feature in Matlab.
+[go to subfolder](./facesVhouses/README.md) and you can also have a look at the [PDF file I produced](./facesVhouses/html/facesVhouses.pdf) from the analysis script using the ``publish()`` feature in Matlab.
 
 ## Turning this into a function
 
